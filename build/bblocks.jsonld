@@ -1,76 +1,184 @@
 {
-  "@context": {
-    "bblocks": "https://www.opengis.net/def/bblocks/",
-    "@base": "https://www.opengis.net/def/bblocks/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "dct": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "itemIdentifier": "@id",
-    "name": "rdfs:label",
-    "abstract": "dct:abstract",
-    "status": {
-      "@id": "bblocks:status",
-      "@type": "@id",
-      "@context": {
-        "@base": "http://www.opengis.net/def/status/"
+  "@context": [
+    {
+      "@base": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master"
+    },
+    {
+      "bblocks": "https://www.opengis.net/def/bblocks/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "prof": "http://www.w3.org/ns/dx/prof/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "itemIdentifier": "@id",
+      "baseURL": "@id",
+      "name": "rdfs:label",
+      "abstract": "dct:abstract",
+      "description": "dct:description",
+      "status": {
+        "@id": "bblocks:status",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/status/"
+        }
+      },
+      "dateTimeAddition": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime"
+      },
+      "version": "dct:hasVersion",
+      "dateOfLastChange": {
+        "@id": "dct:modified",
+        "@type": "xsd:date"
+      },
+      "scope": {
+        "@id": "bblocks:scope",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/bblocks/scope/"
+        }
+      },
+      "sources": {
+        "@id": "dct:source",
+        "@context": {
+          "title": "rdfs:label",
+          "link": "@id"
+        }
+      },
+      "schema": {
+        "@id": "bblocks:hasSchema",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:format"
+      },
+      "ldContext": {
+        "@id": "bblocks:hasJsonLdContext",
+        "@type": "@id"
+      },
+      "sourceLdContext": {
+        "@id": "bblocks:hasSourceJsonLdContext",
+        "@type": "@id"
+      },
+      "documentation": {
+        "@id": "dct:description",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:identifier",
+        "@context": {
+          "mediatype": "dct:format",
+          "url": "rdfs:isDefinedBy"
+        }
+      },
+      "hasConcepts": {
+        "@reverse": "skos:inScheme"
+      },
+      "dependsOn": {
+        "@id": "bblocks:dependsOn",
+        "@type": "@id"
+      },
+      "profileOf": {
+        "@id": "prof:isProfileOf",
+        "@type": "@id"
+      },
+      "tags": "dcat:keyword",
+      "shaclRules": {
+        "@id": "bblocks:hasShaclRule",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "rdfs:seeAlso"
+      },
+      "validationReport": {
+        "@id": "bblocks:hasValidationReport",
+        "@type": "@id"
+      },
+      "imports": {
+        "@id": "bblocks:imports",
+        "@type": "@id"
       }
-    },
-    "dateTimeAddition": {
-      "@id": "dct:created",
-      "@type": "xsd:dateTime"
-    },
-    "version": "dct:hasVersion",
-    "dateOfLastChange": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "scope": {
-      "@id": "bblocks:scope",
-      "@type": "@id",
-      "@context": {
-        "@base": "http://www.opengis.net/def/bblocks/scope/"
-      }
-    },
-    "sources": {
-      "@id": "dct:source",
-      "@context": {
-        "title": "rdfs:label",
-        "link": "@id"
-      }
-    },
-    "schema": {
-      "@id": "bblocks:hasSchema",
-      "@type": "@id",
-      "@container": "@index",
-      "@index": "dct:format"
-    },
-    "ldContext": {
-      "@id": "bblocks:hasJsonLdContext",
-      "@type": "@id"
-    },
-    "documentation": {
-      "@id": "dct:description",
-      "@type": "@id",
-      "@container": "@index",
-      "@index": "dct:identifier",
-      "@context": {
-        "mediatype": "dct:format",
-        "url": "rdfs:isDefinedBy"
-      }
-    },
-    "hasConcepts": {
-      "@reverse": "skos:inScheme"
-    },
-    "dependsOn": {
-      "@id": "bblocks:dependsOn",
-      "@type": "@id"
+    }
+  ],
+  "modified": "2024-02-09T12:49:54.202001",
+  "tooling": {
+    "bblocks-postprocess": {
+      "commitId": "\"14ee607a3043861f45036785e2601c2f26d55790",
+      "shortCommitId": "\"14ee60",
+      "date": "2024-02-08T21:40:56+00:00\""
     }
   },
-  "@id": "https://www.opengis.net/def/bblocks",
-  "@type": "skos:ConceptScheme",
-  "skos:prefLabel": "OGC Building Blocks Register",
+  "gitRepository": "https://github.com/pzaborowski/bblocks-sta",
+  "gitHubRepository": "https://github.com/pzaborowski/bblocks-sta/blob/master/",
+  "name": "workspace",
+  "baseURL": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/",
+  "viewerURL": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/",
+  "validationReport": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/tests/report.html",
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "@type": [
+    "skos:ConceptScheme",
+    "dcat:Catalog"
+  ],
+  "skos:prefLabel": "workspace",
   "hasConcepts": [
+    {
+      "itemIdentifier": "ogc.bbr.template.Observation",
+      "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+      "name": "SensorThings API Observation",
+      "abstract": "Representation of the result of act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]",
+      "status": "under-development",
+      "dateTimeAddition": "2024-02-09T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-02-09",
+      "link": "https://github.com/opengeospatial/bblock-template",
+      "sources": [
+        {
+          "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
+          "link": "https://docs.ogc.org/is/18-088/18-088.html"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "ldContext": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld",
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.json"
+      },
+      "sourceLdContext": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/Observation/context.jsonld",
+      "sourceSchema": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/Observation/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/Observation/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/pzaborowski/bblocks-sta/blob/master/build/tests/bbr/template/Observation/",
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/markdown/bbr/template/Observation/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/json-full/bbr/template/Observation/index.json"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/slate-build/bbr/template/Observation/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/bblock/ogc.bbr.template.Observation"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
     {
       "itemIdentifier": "ogc.bbr.template.my-building-block",
       "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
@@ -81,7 +189,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-02-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -95,30 +203,37 @@
         "templates"
       ],
       "shaclRules": {},
+      "ldContext": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/context.jsonld",
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.json"
       },
-      "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/annotated/bbr/template/my-building-block/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/_sources/my-building-block/",
+      "sourceLdContext": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/my-building-block/context.jsonld",
+      "sourceSchema": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/my-building-block/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/my-building-block/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-sta/master/build/generateddocs/slate-build/bbr/template/my-building-block/"
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/slate-build/bbr/template/my-building-block/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/bblock/ogc.bbr.template.my-building-block"
         }
       },
       "@type": [
         "bblocks:Schema",
-        "skos:Concept"
+        "skos:Concept",
+        "dcat:Dataset"
       ]
     }
   ]
