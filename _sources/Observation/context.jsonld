@@ -1,0 +1,15 @@
+{
+  "@context": [
+    "https://covjson.org/prefixes.jsonld",
+    {
+      "@iot.id": "@id",
+      "@iot.selfLink": "sta:selfLink",
+      "phenomenonTime": " sosa:phenomenonTime",
+      "result": "sosa:hasSimpleResult",
+      "resultQuality": "resultQuality",
+      "resultTime": "sosa:resultTime",
+      "validTime": "sta:validTime",
+      "Datastream": "sta:DataStrem",
+      "FeatureOfInterest": "sosa:hasFeatureOfInterest"
+  ]
+}
