@@ -1,16 +1,19 @@
 {
-  "@context": [
-    "https://covjson.org/prefixes.jsonld",
-    {
-      "@iot.id": "@id",
+  "@context": [{
+    "sta": "https://schemas.opengis.org/sta/def/core#",
+    "sosa": "https://www.w3.org/TR/vocab-ssn/",
+    "rel": "http://www.iana.org/assignments/relation/"},
+	{
+    "@iot.id": "@id",
       "@iot.selfLink": "sta:selfLink",
-      "phenomenonTime": " sosa:phenomenonTime",
+      "phenomenonTime": "sosa:phenomenonTime",
       "result": "sosa:hasSimpleResult",
-      "resultQuality": "resultQuality",
+      "resultQuality": "sta:resultQuality",
       "resultTime": "sosa:resultTime",
       "validTime": "sta:validTime",
-      "Datastream": "sta:DataStrem",
-      "FeatureOfInterest": "sosa:hasFeatureOfInterest"
+    "Datastream": "sta:DataStrem",
+    "FeatureOfInterest": "sosa:hasFeatureOfInterest"
     }
-  ]
+	]
+
 }
