@@ -11,5 +11,6 @@
       "validTime": "sta:validTime",
       "Datastream": "sta:DataStrem",
       "FeatureOfInterest": "sosa:hasFeatureOfInterest"
+    }
   ]
 }
