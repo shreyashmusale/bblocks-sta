@@ -64,6 +64,6 @@ x-defs:
       sosa: https://www.w3.org/TR/vocab-ssn/
       rel: http://www.iana.org/assignments/relation/
     x-schema-version: http://json-schema.org/draft-04/schema#
-    x-schema-source: https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema-oas3.0.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema-oas3.0.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.Observation
+- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.Observation

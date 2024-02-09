@@ -50,7 +50,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observa
   "phenomenonTime": "2014-12-31T11:59:59.00+08:00",
   "resultTime": "2014-12-31T11:59:59.00+08:00",
   "result": 70.4,
-  "@context": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld"
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld"
 }
 ```
 
@@ -128,8 +128,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.yaml)
 
 
 # JSON-LD Context
@@ -153,7 +153,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld)
 
 ## Sources
 
@@ -163,6 +163,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/pzaborowski/bblocks-sta](https://github.com/pzaborowski/bblocks-sta)
+* URL: [https://github.com/ogcincubator/bblocks-sta](https://github.com/ogcincubator/bblocks-sta)
 * Path: `_sources/Observation`
 

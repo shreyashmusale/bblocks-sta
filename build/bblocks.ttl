@@ -7,55 +7,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://raw.githubusercontent.com/pzaborowski/bblocks-sta/ogc.bbr.template.Observation> a skos:Concept,
+<https://ogcincubator.github.io/ogc.bbr.template.Observation> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "SensorThings API Observation" ;
     dct:abstract "Representation of the result of act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/bblock/ogc.bbr.template.Observation" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/json-full/bbr/template/Observation/index.json" ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/bbr/template/Observation/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/slate-build/bbr/template/Observation/" ],
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/bbr/template/Observation/" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.bbr.template.Observation" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/markdown/bbr/template/Observation/index.md" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/bbr/template/Observation/index.md" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-02-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html> ;
-    skos:inScheme <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/> ;
+    skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "templates" ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.json>,
-        <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.yaml> ;
-    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/Observation/context.jsonld> ;
+    bblocks:hasJsonLdContext <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld> ;
+    bblocks:hasSchema <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.json>,
+        <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://ogcincubator.github.io/bblocks-sta/_sources/Observation/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
-<https://raw.githubusercontent.com/pzaborowski/bblocks-sta/ogc.bbr.template.my-building-block> a skos:Concept,
+<https://ogcincubator.github.io/ogc.bbr.template.my-building-block> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "My Building Block" ;
     dct:abstract "This Building Block serves as a template to create new ones" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.bbr.template.my-building-block" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/slate-build/bbr/template/my-building-block/" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/bblock/ogc.bbr.template.my-building-block" ],
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/bbr/template/my-building-block/" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-02-09"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
-    skos:inScheme <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/> ;
+    skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "templates" ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.json>,
-        <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.yaml> ;
-    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/_sources/my-building-block/context.jsonld> ;
+    bblocks:hasJsonLdContext <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/context.jsonld> ;
+    bblocks:hasSchema <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.json>,
+        <https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://ogcincubator.github.io/bblocks-sta/_sources/my-building-block/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
@@ -63,23 +63,23 @@
 
 <https://example.com/sources/1> rdfs:label "Sample source document" .
 
-<https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/> a skos:ConceptScheme,
+<https://ogcincubator.github.io/bblocks-sta/> a skos:ConceptScheme,
         dcat:Catalog ;
     rdfs:label "workspace" ;
     skos:prefLabel "workspace" ;
-    bblocks:hasValidationReport <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/tests/report.html> ;
+    bblocks:hasValidationReport <https://ogcincubator.github.io/bblocks-sta/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-09T12:49:54.886027"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-09T12:49:54.822517"^^xsd:dateTime ;
+    prov:endedAtTime "2024-02-09T13:31:33.138821"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-09T13:31:33.075595"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/json" ;
-            dct:hasVersion "git:ee6be63383c4c0cd046801cc99f02e2f66c1ce6e" ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/register.json> ],
-        [ a prov:Entity ;
             dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+        [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:5f9a891005297e8872771021e438f5efe536134e" ;
+            rdfs:seeAlso <https://ogcincubator.github.io/bblocks-sta/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
