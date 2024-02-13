@@ -30,7 +30,7 @@ Representation of the result of act of measuring or otherwise determining the va
 </p>
 
 <aside class="success">
-This building block is <strong><a href="https://github.com/pzaborowski/bblocks-sta/blob/master/build/tests/bbr/template/Observation/" target="_blank">valid</a></strong>
+This building block is <strong><a href="https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/bbr/template/Observation/" target="_blank">valid</a></strong>
 </aside>
 
 # Description
@@ -70,8 +70,8 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observa
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/tests/bbr/template/Observation/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FObservation%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-sta/build/tests/bbr/template/Observation/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FObservation%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -86,14 +86,14 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observa
   "phenomenonTime": "2014-12-31T11:59:59.00+08:00",
   "resultTime": "2014-12-31T11:59:59.00+08:00",
   "result": 70.4,
-  "@context": "https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld"
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld"
 }
 ```
 
 <blockquote class="lang-specific jsonld">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/tests/bbr/template/Observation/example_1_1.jsonld">Open in new window</a>
-    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FObservation%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-sta/build/tests/bbr/template/Observation/example_1_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FObservation%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
 </blockquote>
 
 
@@ -112,7 +112,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observa
 
 <blockquote class="lang-specific turtle">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/tests/bbr/template/Observation/example_1_1.ttl">Open in new window</a>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-sta/build/tests/bbr/template/Observation/example_1_1.ttl">Open in new window</a>
 </blockquote>
 
 
@@ -177,12 +177,12 @@ x-jsonld-prefixes:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FObservation%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FObservation%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.yaml" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.json" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/schema.json</a>
+* YAML version: <a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.yaml</a>
+* JSON version: <a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/schema.json</a>
 
 
 # JSON-LD Context
@@ -205,10 +205,10 @@ Links to the schema:
 }
 ```
 
-> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FObservation%2Fcontext.jsonld">View on JSON-LD Playground</a>
+> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FObservation%2Fcontext.jsonld">View on JSON-LD Playground</a>
 
 You can find the full JSON-LD context here:
-<a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/Observation/context.jsonld</a>
+<a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/Observation/context.jsonld</a>
 
 # References
 
@@ -218,7 +218,7 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/pzaborowski/bblocks-sta" target="_blank">https://github.com/pzaborowski/bblocks-sta</a>
+* URL: <a href="https://github.com/ogcincubator/bblocks-sta" target="_blank">https://github.com/ogcincubator/bblocks-sta</a>
 * Path:
-<code><a href="https://github.com/pzaborowski/bblocks-sta/blob/HEAD/_sources/Observation" target="_blank">_sources/Observation</a></code>
+<code><a href="https://github.com/ogcincubator/bblocks-sta/blob/HEAD/_sources/Observation" target="_blank">_sources/Observation</a></code>
 

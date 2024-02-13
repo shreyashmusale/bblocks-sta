@@ -102,12 +102,12 @@ required:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fmy-building-block%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fmy-building-block%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.yaml" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.json" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema.json</a>
+* YAML version: <a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.yaml</a>
+* JSON version: <a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema.json</a>
 
 
 # JSON-LD Context
@@ -125,10 +125,10 @@ Links to the schema:
 }
 ```
 
-> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fpzaborowski%2Fbblocks-sta%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fmy-building-block%2Fcontext.jsonld">View on JSON-LD Playground</a>
+> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-sta%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fmy-building-block%2Fcontext.jsonld">View on JSON-LD Playground</a>
 
 You can find the full JSON-LD context here:
-<a href="https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/context.jsonld" target="_blank">https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/context.jsonld</a>
+<a href="https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/context.jsonld" target="_blank">https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/context.jsonld</a>
 
 # References
 
@@ -138,7 +138,7 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/pzaborowski/bblocks-sta" target="_blank">https://github.com/pzaborowski/bblocks-sta</a>
+* URL: <a href="https://github.com/ogcincubator/bblocks-sta" target="_blank">https://github.com/ogcincubator/bblocks-sta</a>
 * Path:
-<code><a href="https://github.com/pzaborowski/bblocks-sta/blob/HEAD/_sources/my-building-block" target="_blank">_sources/my-building-block</a></code>
+<code><a href="https://github.com/ogcincubator/bblocks-sta/blob/HEAD/_sources/my-building-block" target="_blank">_sources/my-building-block</a></code>
 
