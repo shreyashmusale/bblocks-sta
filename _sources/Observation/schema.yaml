@@ -17,10 +17,6 @@ properties:
     type: string
     description: The time when the observation happened. or Time Interval string (e.g., 2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)
   result:
-    type:
-      - string
-      - number
-      - boolean
     description: The estimated value of the observed property. Type depends on the observationType defined in the associated Datastream
   resultQuality:
     type: string

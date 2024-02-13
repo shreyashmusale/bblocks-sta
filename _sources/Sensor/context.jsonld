@@ -11,8 +11,8 @@
       "resultQuality": "sta:resultQuality",
       "resultTime": "sosa:resultTime",
       "validTime": "sta:validTime",
-      "Datastream@iot.navigationLink": "sta:DataStream",
-      "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest"
+    "Datastream": "sta:DataStrem",
+    "FeatureOfInterest": "sosa:hasFeatureOfInterest"
     }
 	]
 

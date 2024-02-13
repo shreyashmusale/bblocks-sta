@@ -1,18 +1,18 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "My Building Block",
-  "abstract": "This Building Block serves as a template to create new ones",
+  "name": "SensorThings API Sensor",
+  "abstract": "A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.",
   "status": "under-development",
-  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "dateTimeAddition": "2024-02-10T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2024-02-10",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
-      "title": "Sample source document",
-      "link": "https://example.com/sources/1"
+      "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
+      "link": "https://docs.ogc.org/is/18-088/18-088.html"
     }
   ],
   "maturity": "mature",
