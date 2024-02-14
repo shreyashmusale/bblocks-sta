@@ -1,0 +1,5 @@
+- title: FeatureOfInterest basic example.
+  base-uri: http://w3id.org/ogcincubator/bblocks-sta/
+  snippets:
+    - language: json
+      ref: examples/FeatureOfInterest.json

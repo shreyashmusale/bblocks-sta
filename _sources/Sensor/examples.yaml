@@ -1,0 +1,5 @@
+- title: Observation whose Datastream has an ObservationType of OM_Measurement. A result’s data type is defined by the observationType.
+  base-uri: http://w3id.org/ogcincubator/bblocks-sta/
+  snippets:
+    - language: json
+      ref: examples/Observation.json

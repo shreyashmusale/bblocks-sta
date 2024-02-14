@@ -1,0 +1,36 @@
+"$schema": "http://json-schema.org/draft-04/schema#"
+title: FeatureOfInterest object
+description: "Schema for Sensor things API 1.1 FeatureOfInterest"
+type: object
+required:
+  - "@iot.id"
+  - "@iot.selfLink"
+  - name
+  - description
+  - encodingType
+  - feature
+  - Observations@iot.navigationLink
+properties:
+  "@iot.id":
+      description: The Id of the Feature
+  "@iot.selfLink":
+      type: string
+      description: The direct link to the entity
+  name:
+    type: string
+    description: A property provides a label for FeatureOfInterest entity, commonly a descriptive name.
+  description:
+    type: string
+    description: The description about the FeatureOfInterest.
+  encodingType:
+    type: string
+    description: The encoding type of the feature property. Its value is one of the ValueCode enumeration (see https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes for the available ValueCode)..
+    const: 'application/geo+json'
+  feature:
+    description: The detailed description of the feature. The data type is defined by encodingType.
+  properties:
+    type: object
+    description: optional properties for the feature.
+  Observations@iot.navigationLink:
+    type: string
+    description: Reference link to the Observations.
