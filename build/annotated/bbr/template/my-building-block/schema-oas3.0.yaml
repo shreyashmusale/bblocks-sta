@@ -15,6 +15,6 @@ x-defs:
     - a
     - b
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema-oas3.0.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema-oas3.0.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/pzaborowski/bblocks-sta/master/build/annotated/bbr/template/my-building-block/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.my-building-block
+- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/bbr/template/my-building-block/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.my-building-block
