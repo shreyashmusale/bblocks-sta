@@ -1,6 +1,7 @@
 ## What is represents
 
-Observation is an act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]
+A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.
+STA sensor is based on the concept from [OGC and ISO 19156:2001, OGC 10-004r3 and ISO 19156:2011(E), OGC Abstract Specification: Geographic information — Observations and Measurements.](http://portal.opengeospatial.org/files/?artifact_id=41579)
 
 ### Limitations
 For compliance with SwaggerHub where the schema can be referred:
@@ -13,4 +14,4 @@ For compliance with SwaggerHub where the schema can be referred:
 
 ## References
 
-Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observation](https://docs.ogc.org/is/18-088/18-088.html#observation)
+Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor](https://docs.ogc.org/is/18-088/18-088.html#sensor)
