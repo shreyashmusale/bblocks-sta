@@ -1,0 +1,72 @@
+x-defs:
+  ogc.api.sta.FeatureOfInterest:
+    title: FeatureOfInterest object
+    description: Schema for Sensor things API 1.1 FeatureOfInterest
+    type: object
+    required:
+    - '@iot.id'
+    - '@iot.selfLink'
+    - name
+    - description
+    - encodingType
+    - feature
+    - Observations@iot.navigationLink
+    properties:
+      '@iot.id':
+        description: The Id of the Feature
+      '@iot.selfLink':
+        type: string
+        description: The direct link to the entity
+      name:
+        type: string
+        description: A property provides a label for FeatureOfInterest entity, commonly
+          a descriptive name.
+        x-jsonld-id: http://purl.org/dc/terms/title
+      description:
+        type: string
+        description: The description about the FeatureOfInterest.
+        x-jsonld-id: http://purl.org/dc/terms/description
+      encodingType:
+        type: string
+        description: The encoding type of the feature property. Its value is one of
+          the ValueCode enumeration (see https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes
+          for the available ValueCode)..
+        const: application/geo+json
+        x-jsonld-id: https://w3c.github.io/dxwg/dcat/mediaType
+      feature:
+        description: The detailed description of the feature. The data type is defined
+          by encodingType.
+        x-jsonld-id: https://purl.org/geojson/vocab#Feature
+        x-jsonld-extra-terms:
+          type: '@type'
+          coordinates:
+            x-jsonld-container: '@list'
+            x-jsonld-id: https://purl.org/geojson/vocab#coordinates
+      properties:
+        type: object
+        description: optional properties for the feature.
+      Observations@iot.navigationLink:
+        type: string
+        description: Reference link to the Observations.
+        x-jsonld-id: https://schemas.opengis.org/sta/def/core#Observation
+    x-jsonld-extra-terms:
+      LineString: https://purl.org/geojson/vocab#LineString
+      MultiLineString: https://purl.org/geojson/vocab#MultiLineString
+      MultiPoint: https://purl.org/geojson/vocab#MultiPoint
+      MultiPolygon: https://purl.org/geojson/vocab#MultiPolygon
+      Point: https://purl.org/geojson/vocab#Point
+      Polygon: https://purl.org/geojson/vocab#Polygon
+      geometry: https://purl.org/geojson/vocab#geometry
+    x-jsonld-prefixes:
+      sta: https://schemas.opengis.org/sta/def/core#
+      dct: http://purl.org/dc/terms/
+      dcat: https://w3c.github.io/dxwg/dcat/
+      geojson: https://purl.org/geojson/vocab#
+      sosa: https://www.w3.org/TR/vocab-ssn/#
+      skos: http://www.w3.org/2004/02/skos/core#
+      iana: https://www.iana.org/assignments/media-types/
+      rel: http://www.iana.org/assignments/relation/
+    x-schema-version: http://json-schema.org/draft-04/schema#
+    x-schema-source: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema-oas3.0.yaml
+allOf:
+- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema-oas3.0.yaml#/x-defs/ogc.api.sta.FeatureOfInterest

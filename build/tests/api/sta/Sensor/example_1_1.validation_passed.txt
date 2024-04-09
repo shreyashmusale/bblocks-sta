@@ -1,0 +1,13 @@
+Validation report for ogc.api.sta.Sensor - SensorThings API Sensor
+Generated 2024-04-09T04:16:26.793430+00:00
+=== Files ===
+Using example_1_1.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_1_1.jsonld created
+Output Turtle example_1_1.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

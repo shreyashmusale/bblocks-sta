@@ -1,0 +1,81 @@
+{
+  "x-defs": {
+    "ogc.api.sta.Thing": {
+      "title": "Observation object",
+      "description": "Schema for Sensor things API 1.3 Observation",
+      "type": "object",
+      "properties": {
+        "@iot.id": {
+          "type": [
+            "string",
+            "number"
+          ],
+          "description": "The Id of the observation",
+          "anyOf": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        },
+        "@iot.selfLink": {
+          "type": "string",
+          "description": "The direct link to the entity"
+        },
+        "parameters": {
+          "type": "object"
+        },
+        "phenomenonTime": {
+          "type": "string",
+          "description": "The time when the observation happened. or Time Interval string (e.g., 2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)",
+          "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#phenomenonTime"
+        },
+        "result": {
+          "description": "The estimated value of the observed property. Type depends on the observationType defined in the associated Datastream",
+          "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#hasSimpleResult"
+        },
+        "resultQuality": {
+          "type": "string",
+          "description": "A description of the quality of the result. Type DQ_Element.",
+          "x-jsonld-id": "https://schemas.opengis.org/sta/def/core#resultQuality"
+        },
+        "resultTime": {
+          "type": "string",
+          "description": "The time the result was generated. TM_Instant (ISO 8601 Time string)",
+          "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#resultTime"
+        },
+        "validTime": {
+          "type": "string",
+          "description": "The time period during which the result can be used. TM_Period (ISO 8601 Time Interval string)",
+          "x-jsonld-id": "https://schemas.opengis.org/sta/def/core#validTime"
+        },
+        "Datastream@iot.navigationLink": {
+          "type": "string",
+          "description": "Reference link to the DataStream Definition.",
+          "x-jsonld-id": "https://schemas.opengis.org/sta/def/core#DataStream"
+        },
+        "FeatureOfInterest@iot.navigationLink": {
+          "type": "string",
+          "description": "Reference link to the FeatureOfInterest.",
+          "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest"
+        }
+      },
+      "x-jsonld-prefixes": {
+        "sta": "https://schemas.opengis.org/sta/def/core#",
+        "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+        "rel": "http://www.iana.org/assignments/relation/"
+      },
+      "x-schema-version": "http://json-schema.org/draft-04/schema#",
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema-oas3.0.json"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema-oas3.0.json#/x-defs/ogc.api.sta.Thing"
+    }
+  ]
+}
