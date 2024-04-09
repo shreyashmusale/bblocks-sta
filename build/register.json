@@ -2,12 +2,12 @@
   "name": "Sensor Things API building blocks",
   "abstract": "This is set of data building blocks describing reusable components of the Sensor Things API 1.1.\n",
   "description": "Initial work on the bblocks extraction was done for the particular cases of the Iliad project.\nThis initial draf can be missing some elements of the STA and relax on some formal constraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD specifications.\nThe mapping of schema elements to formal definitions (JSON-LD context files) shall be treated as draft proposition.\n",
-  "modified": "2024-04-09T08:18:26.550253",
+  "modified": "2024-04-09T09:16:33.018566",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"7bc28ab560dbf91c352585ba69c0f3c4d356dba1",
-      "shortCommitId": "\"7bc28a",
-      "date": "2024-04-09T08:15:32+00:00\""
+      "commitId": "\"32e803263591dfa42fd4a83c5a75b4efed7108b7",
+      "shortCommitId": "\"32e803",
+      "date": "2024-04-09T09:12:29+00:00\""
     }
   },
   "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
