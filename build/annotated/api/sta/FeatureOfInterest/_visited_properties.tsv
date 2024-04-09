@@ -1,6 +1,6 @@
 path	@id
-/@iot.id	
-/@iot.selfLink	
+/@iot.id	@id
+/@iot.selfLink	https://schemas.opengis.org/sta/def/core#selfLink
 /name	http://purl.org/dc/terms/title
 /description	http://purl.org/dc/terms/description
 /encodingType	https://w3c.github.io/dxwg/dcat/mediaType

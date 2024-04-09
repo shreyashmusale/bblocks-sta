@@ -131,9 +131,11 @@ type: object
 properties:
   '@iot.id':
     description: The Id of the sensor
+    x-jsonld-id: '@id'
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
+    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self
   properties:
     type: object
     description: A JSON Object containing user-annotated properties as key-value pairs.
@@ -199,6 +201,8 @@ Links to the schema:
 ```json--ldContext
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",

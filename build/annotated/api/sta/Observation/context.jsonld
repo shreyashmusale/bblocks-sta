@@ -1,5 +1,7 @@
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "sta:selfLink",
     "phenomenonTime": "sosa:phenomenonTime",
     "result": "sosa:hasSimpleResult",
     "resultQuality": "sta:resultQuality",

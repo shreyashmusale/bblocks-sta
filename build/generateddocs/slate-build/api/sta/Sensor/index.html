@@ -435,9 +435,11 @@ Asida instabilesque somno sed.</p>
 <span class="na">properties</span><span class="pi">:</span>
   <span class="s1">'</span><span class="s">@iot.id'</span><span class="err">:</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">The Id of the sensor</span>
-  <span class="s1">'</span><span class="s">@iot.selfLink'</span><span class="err">:</span>
+    <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@id'</span>
+<span class="err">  </span><span class="s1">'</span><span class="s">@iot.selfLink'</span><span class="err">:</span>
     <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">The direct link to the entity</span>
+    <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">http://www.opengis.net/def/rel/iana/1.0/self</span>
   <span class="na">properties</span><span class="pi">:</span>
     <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">A JSON Object containing user-annotated properties as key-value pairs.</span>
@@ -501,6 +503,8 @@ Asida instabilesque somno sed.</p>
 </ul>
 <h1 id='json-ld-context'>JSON-LD Context</h1><div class="highlight"><pre class="highlight json tab-json--ldContext"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@iot.id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@iot.selfLink"</span><span class="p">:</span><span class="w"> </span><span class="s2">"orel:iana/1.0/self"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:title"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:description"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"encodingType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dcat:mediaType"</span><span class="p">,</span><span class="w">

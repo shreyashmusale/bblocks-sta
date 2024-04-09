@@ -1,5 +1,7 @@
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "sta:selfLink",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",

@@ -1,5 +1,7 @@
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",

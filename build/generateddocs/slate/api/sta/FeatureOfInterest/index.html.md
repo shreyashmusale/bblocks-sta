@@ -162,9 +162,11 @@ required:
 properties:
   '@iot.id':
     description: The Id of the Feature
+    x-jsonld-id: '@id'
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
+    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink
   name:
     type: string
     description: A property provides a label for FeatureOfInterest entity, commonly
@@ -230,6 +232,8 @@ Links to the schema:
 ```json--ldContext
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "sta:selfLink",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",

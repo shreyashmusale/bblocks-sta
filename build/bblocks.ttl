@@ -13,12 +13,12 @@
     rdfs:label "SensorThings API FeatureOfInterest (FOI)" ;
     dct:abstract "Representation of the result of the FeatureOfInterest. " ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/FeatureOfInterest/index.json" ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/FeatureOfInterest/index.md" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.FeatureOfInterest" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/FeatureOfInterest/index.json" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/api/sta/FeatureOfInterest/" ] ;
     dct:hasVersion "0.1" ;
@@ -39,12 +39,12 @@
     rdfs:label "SensorThings API Observation" ;
     dct:abstract "Representation of the result of act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/api/sta/Observation/" ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Observation/index.md" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Observation/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/api/sta/Observation/" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Observation" ] ;
     dct:hasVersion "0.1" ;
@@ -65,12 +65,12 @@
     rdfs:label "SensorThings API Sensor" ;
     dct:abstract "A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property." ;
     dct:created "2024-02-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md" ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Sensor" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Sensor/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/api/sta/Sensor/" ] ;
     dct:hasVersion "0.1" ;
@@ -91,12 +91,12 @@
     rdfs:label "SensorThings API Thing" ;
     dct:abstract "A thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks. [ITU-T Y.2060]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Thing" ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/slate-build/api/sta/Thing/" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Thing" ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Thing/index.md" ] ;
     dct:hasVersion "0.1" ;
@@ -127,11 +127,11 @@ The mapping of schema elements to formal definitions (JSON-LD context files) sha
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-09T04:16:26.895182"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-09T04:16:26.813541"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-09T08:18:27.550174"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-09T08:18:27.469812"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:81bdd5a10c18fe64048f0ab9b925f48b9daa352b" ;
+            dct:hasVersion "git:981b6fd70800e1a7a667a41e2ae26ff5dbfa0799" ;
             rdfs:seeAlso <https://ogcincubator.github.io/bblocks-sta/build/register.json> ],
         [ a prov:Entity ;
             dct:format "application/yaml" ;
@@ -139,6 +139,6 @@ The mapping of schema elements to formal definitions (JSON-LD context files) sha
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.43" ;
+            dct:hasVersion "0.3.44" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

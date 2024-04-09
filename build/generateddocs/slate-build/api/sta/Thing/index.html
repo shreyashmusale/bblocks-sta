@@ -431,9 +431,11 @@ Asida instabilesque somno sed.</p>
     <span class="pi">-</span> <span class="s">string</span>
     <span class="pi">-</span> <span class="s">number</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">The Id of the observation</span>
-  <span class="s1">'</span><span class="s">@iot.selfLink'</span><span class="err">:</span>
+    <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@id'</span>
+<span class="err">  </span><span class="s1">'</span><span class="s">@iot.selfLink'</span><span class="err">:</span>
     <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
     <span class="na">description</span><span class="pi">:</span> <span class="s">The direct link to the entity</span>
+    <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schemas.opengis.org/sta/def/core#selfLink</span>
   <span class="na">parameters</span><span class="pi">:</span>
     <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
   <span class="na">phenomenonTime</span><span class="pi">:</span>
@@ -484,6 +486,8 @@ Asida instabilesque somno sed.</p>
 </ul>
 <h1 id='json-ld-context'>JSON-LD Context</h1><div class="highlight"><pre class="highlight json tab-json--ldContext"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@iot.id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@iot.selfLink"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sta:selfLink"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"phenomenonTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sosa:phenomenonTime"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sosa:hasSimpleResult"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"resultQuality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sta:resultQuality"</span><span class="p">,</span><span class="w">

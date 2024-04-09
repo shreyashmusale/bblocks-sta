@@ -1,6 +1,6 @@
 path	@id
-/@iot.id	
-/@iot.selfLink	
+/@iot.id	@id
+/@iot.selfLink	https://schemas.opengis.org/sta/def/core#selfLink
 /parameters	
 /phenomenonTime	https://www.w3.org/TR/vocab-ssn/#phenomenonTime
 /result	https://www.w3.org/TR/vocab-ssn/#hasSimpleResult

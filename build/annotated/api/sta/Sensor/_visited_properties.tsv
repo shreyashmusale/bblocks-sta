@@ -1,6 +1,6 @@
 path	@id
-/@iot.id	
-/@iot.selfLink	
+/@iot.id	@id
+/@iot.selfLink	http://www.opengis.net/def/rel/iana/1.0/self
 /properties	
 /name	http://purl.org/dc/terms/title
 /description	http://purl.org/dc/terms/description
