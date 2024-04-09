@@ -2,4 +2,4 @@
   base-uri: http://w3id.org/ogcincubator/bblocks-sta/
   snippets:
     - language: json
-      ref: examples/Observation.json
+      ref: examples/Thing.json

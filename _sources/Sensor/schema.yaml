@@ -6,10 +6,8 @@ properties:
   "@iot.id":
       description: The Id of the sensor
   "@iot.selfLink":
-      type:
-        - string
-        - id
-      description: The direct link to the entity
+    type: string
+    description: The direct link to the entity
   properties:
     type: object
     description: A JSON Object containing user-annotated properties as key-value pairs.

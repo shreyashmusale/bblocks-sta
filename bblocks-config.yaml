@@ -3,15 +3,15 @@ name: Sensor Things API building blocks
 
 # Short abstract for this collection (optional)
 abstract: |
-  This is set of data building blocks used by the Sensor Things API 1.1.
+  This is set of data building blocks describing reusable components of the Sensor Things API 1.1.
 
 # Description for this collection (optional)
 description: |
-  Initial work on the bblocks extration was done for the particular cases of the Iliad project.
-  It can be missing some elements of the STA and relax on some formal contraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD speifications.
-  The mapping to the context files is the proposed one and shall be treated as draft proposition.
+  Initial work on the bblocks extraction was done for the particular cases of the Iliad project.
+  This initial draf can be missing some elements of the STA and relax on some formal constraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD specifications.
+  The mapping of schema elements to formal definitions (JSON-LD context files) shall be treated as draft proposition.
 
-identifier-prefix: ogc.bbr.sta.
+identifier-prefix: ogc.api.sta.
 
 imports:
   - default
