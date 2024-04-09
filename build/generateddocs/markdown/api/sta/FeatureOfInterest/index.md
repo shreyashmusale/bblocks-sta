@@ -82,7 +82,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature
 @prefix sta: <https://schemas.opengis.org/sta/def/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] dcterms:description "This is a weather station located at the Calgary Airport." ;
+<http://w3id.org/ogcincubator/bblocks-sta/1> dcterms:description "This is a weather station located at the Calgary Airport." ;
     dcterms:title "Weather Station YYC." ;
     geojson:Feature [ a <http://w3id.org/ogcincubator/bblocks-sta/Feature> ;
             geojson:geometry [ a geojson:Point ;

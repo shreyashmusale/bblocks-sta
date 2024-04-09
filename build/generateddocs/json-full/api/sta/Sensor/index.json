@@ -53,7 +53,7 @@
         },
         {
           "language": "ttl",
-          "code": "@prefix dcat1: <https://w3c.github.io/dxwg/dcat/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n\n[] dcterms:description \"TMP36 - Analog Temperature sensor\" ;\n    dcterms:title \"TMP36\" ;\n    dcat1:mediaType \"application/pdf\" .\n\n",
+          "code": "@prefix dcat1: <https://w3c.github.io/dxwg/dcat/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/1> dcterms:description \"TMP36 - Analog Temperature sensor\" ;\n    dcterms:title \"TMP36\" ;\n    dcat1:mediaType \"application/pdf\" .\n\n",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Sensor/example_1_1.ttl"
         }
       ]

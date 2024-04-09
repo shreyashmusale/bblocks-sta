@@ -2,7 +2,7 @@
 @prefix sta: <https://schemas.opengis.org/sta/def/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] sta:DataStream "Observations(1)/Datastream" ;
+<http://w3id.org/ogcincubator/bblocks-sta/1> sta:DataStream "Observations(1)/Datastream" ;
     sosa1:hasFeatureOfInterest "Observations(1)/FeatureOfInterest" ;
     sosa1:hasSimpleResult 7.04e+01 ;
     sosa1:phenomenonTime "2014-12-31T11:59:59.00+08:00" ;

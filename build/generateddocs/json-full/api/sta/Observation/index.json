@@ -53,7 +53,7 @@
         },
         {
           "language": "ttl",
-          "code": "@prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .\n@prefix sta: <https://schemas.opengis.org/sta/def/core#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] sta:DataStream \"Observations(1)/Datastream\" ;\n    sosa1:hasFeatureOfInterest \"Observations(1)/FeatureOfInterest\" ;\n    sosa1:hasSimpleResult 7.04e+01 ;\n    sosa1:phenomenonTime \"2014-12-31T11:59:59.00+08:00\" ;\n    sosa1:resultTime \"2014-12-31T11:59:59.00+08:00\" .\n\n",
+          "code": "@prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .\n@prefix sta: <https://schemas.opengis.org/sta/def/core#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/1> sta:DataStream \"Observations(1)/Datastream\" ;\n    sosa1:hasFeatureOfInterest \"Observations(1)/FeatureOfInterest\" ;\n    sosa1:hasSimpleResult 7.04e+01 ;\n    sosa1:phenomenonTime \"2014-12-31T11:59:59.00+08:00\" ;\n    sosa1:resultTime \"2014-12-31T11:59:59.00+08:00\" .\n\n",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.ttl"
         }
       ]

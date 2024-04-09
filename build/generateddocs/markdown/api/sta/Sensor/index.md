@@ -63,7 +63,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor]
 @prefix dcat1: <https://w3c.github.io/dxwg/dcat/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-[] dcterms:description "TMP36 - Analog Temperature sensor" ;
+<http://w3id.org/ogcincubator/bblocks-sta/1> dcterms:description "TMP36 - Analog Temperature sensor" ;
     dcterms:title "TMP36" ;
     dcat1:mediaType "application/pdf" .
 
