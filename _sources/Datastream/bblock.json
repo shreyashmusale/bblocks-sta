@@ -1,18 +1,18 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API Sensor",
-  "abstract": "A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.",
+  "name": "SensorThings API Datastream",
+  "abstract": "Metadata about a coherent set of observations, linked to value stream. [OGC 10-004r3 / ISO 19156:2011]",
   "status": "under-development",
-  "dateTimeAddition": "2024-02-10T00:00:00Z",
+  "dateTimeAddition": "2024-02-09T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-02-10",
-  "link": "https://github.com/opengeospatial/sta-bblock",
+  "dateOfLastChange": "2024-02-09",
+  "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
       "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
-      "link": "https://docs.ogc.org/is/18-088/18-088.html#sensor"
+      "link": "https://docs.ogc.org/is/18-088/18-088.html#datastream"
     }
   ],
   "maturity": "mature",

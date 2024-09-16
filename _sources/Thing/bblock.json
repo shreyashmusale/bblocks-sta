@@ -12,10 +12,10 @@
   "sources": [
     {
       "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
-      "link": "https://docs.ogc.org/is/18-088/18-088.html"
+      "link": "https://docs.ogc.org/is/18-088/18-088.html#thing"
     }
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": ["templates"]
+  "tags": ["STA", "OMS", "SOSA"]
 }

@@ -5,38 +5,16 @@
       "sosa": "https://www.w3.org/TR/vocab-ssn/#",
       "dct": "http://purl.org/dc/terms/",
       "dcat": "https://w3c.github.io/dxwg/dcat/",
-      "skos": "http://www.w3.org/2004/02/skos/core#",
       "iana": "https://www.iana.org/assignments/media-types/",
       "rel": "http://www.iana.org/assignments/relation/",
       "geojson": "https://purl.org/geojson/vocab#",
-      "orel": "http://www.opengis.net/def/rel/"
-    },
-    {
+      "orel": "http://www.opengis.net/def/rel/",
       "@iot.id": "@id",
       "@iot.selfLink": "orel:iana/1.0/self",
       "name": "dct:title",
       "description": "dct:description",
       "encodingType": "dcat:mediaType",
-      "feature": {
-        "@id": "geojson:Feature",
-        "@context": {
-          "type": "@type",
-          "coordinates": {
-            "@container": "@list",
-            "@id": "geojson:coordinates"
-          }
-        }
-      }
-    },
-    {
-      "LineString": "geojson:LineString",
-      "MultiLineString": "geojson:MultiLineString",
-      "MultiPoint": "geojson:MultiPoint",
-      "MultiPolygon": "geojson:MultiPolygon",
-      "Point": "geojson:Point",
-      "Polygon": "geojson:Polygon",
-      "geometry": "geojson:geometry",
-      "Observations@iot.navigationLink": "sta:Observation"
+      "Observations@iot.navigationLink": "sosa:madeObservation"
     }
   ]
 }

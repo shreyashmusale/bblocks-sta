@@ -1,4 +1,4 @@
-## What is represents
+## Thing
 
 The OGC SensorThings API follows the ITU-T definition, i.e., with regard to the Internet of Things, a thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks [ITU-T Y.2060].
 
@@ -6,10 +6,6 @@ The OGC SensorThings API follows the ITU-T definition, i.e., with regard to the 
 For compliance with SwaggerHub where the schema can be referred:
 - type of id is not specified, while it shall be string or number
 
-
-> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel
-> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si
-> Asida instabilesque somno sed.
 
 ## References
 
