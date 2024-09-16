@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Datastream object",
+  "description": "Schema for Sensor things API 1.3 Datastream",
+  "type": "object",
+  "properties": {
+    "@iot.id": {
+      "type": [
+        "string",
+        "number"
+      ],
+      "description": "The Id of the observation",
+      "x-jsonld-id": "@id"
+    },
+    "@iot.selfLink": {
+      "type": "string",
+      "description": "The direct link to the entity",
+      "x-jsonld-id": "http://www.opengis.net/def/rel/iana/1.0/self"
+    },
+    "Observations@iot.navigationLink": {
+      "type": "string",
+      "description": "Reference link to stream of Observations.",
+      "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#hasMember"
+    }
+  },
+  "x-jsonld-extra-terms": {
+    "phenomenonTime": "https://www.w3.org/TR/vocab-ssn/#phenomenonTime",
+    "name": "dct:title",
+    "description": "dct:description",
+    "resultQuality": "https://www.w3.org/TR/vocab-ssn/#resultQuality",
+    "resultTime": "https://www.w3.org/TR/vocab-ssn/#resultTime",
+    "validTime": "https://schemas.opengis.org/sta/def/core#validTime",
+    "ObservedProperty@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty",
+    "Sensor@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor",
+    "Thing@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing"
+  },
+  "x-jsonld-prefixes": {
+    "orel": "http://www.opengis.net/def/rel/",
+    "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
+    "rel": "http://www.iana.org/assignments/relation/"
+  }
+}

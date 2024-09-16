@@ -18,10 +18,6 @@ For compliance with SwaggerHub where the schema can be referred:
 - type of id is not specified, while it shall be string or number
 - type of feature property is not specified, while it shall be string or object
 
-> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel
-> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si
-> Asida instabilesque somno sed.
-
 ## References
 
 Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature-of-interest](https://docs.ogc.org/is/18-088/18-088.html#featureofinterest)
@@ -115,7 +111,7 @@ properties:
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink
+    x-jsonld-id: orel:iana/1.0/self
   name:
     type: string
     description: A property provides a label for FeatureOfInterest entity, commonly
@@ -157,10 +153,10 @@ x-jsonld-extra-terms:
   Polygon: https://purl.org/geojson/vocab#Polygon
   geometry: https://purl.org/geojson/vocab#geometry
 x-jsonld-prefixes:
-  sta: https://schemas.opengis.org/sta/def/core#
   dct: http://purl.org/dc/terms/
   dcat: https://w3c.github.io/dxwg/dcat/
   geojson: https://purl.org/geojson/vocab#
+  sta: https://schemas.opengis.org/sta/def/core#
   sosa: https://www.w3.org/TR/vocab-ssn/#
   skos: http://www.w3.org/2004/02/skos/core#
   iana: https://www.iana.org/assignments/media-types/
@@ -180,7 +176,7 @@ Links to the schema:
 {
   "@context": {
     "@iot.id": "@id",
-    "@iot.selfLink": "sta:selfLink",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",
@@ -202,10 +198,10 @@ Links to the schema:
     "Point": "geojson:Point",
     "Polygon": "geojson:Polygon",
     "geometry": "geojson:geometry",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
     "dct": "http://purl.org/dc/terms/",
     "dcat": "https://w3c.github.io/dxwg/dcat/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "iana": "https://www.iana.org/assignments/media-types/",

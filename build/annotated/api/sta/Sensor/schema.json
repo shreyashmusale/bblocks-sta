@@ -41,34 +41,16 @@
     }
   },
   "x-jsonld-extra-terms": {
-    "feature": {
-      "x-jsonld-id": "https://purl.org/geojson/vocab#Feature",
-      "x-jsonld-context": {
-        "type": "@type",
-        "coordinates": {
-          "@container": "@list",
-          "@id": "https://purl.org/geojson/vocab#coordinates"
-        }
-      }
-    },
-    "LineString": "https://purl.org/geojson/vocab#LineString",
-    "MultiLineString": "https://purl.org/geojson/vocab#MultiLineString",
-    "MultiPoint": "https://purl.org/geojson/vocab#MultiPoint",
-    "MultiPolygon": "https://purl.org/geojson/vocab#MultiPolygon",
-    "Point": "https://purl.org/geojson/vocab#Point",
-    "Polygon": "https://purl.org/geojson/vocab#Polygon",
-    "geometry": "https://purl.org/geojson/vocab#geometry",
-    "Observations@iot.navigationLink": "https://schemas.opengis.org/sta/def/core#Observation"
+    "Observations@iot.navigationLink": "https://www.w3.org/TR/vocab-ssn/#madeObservation"
   },
   "x-jsonld-prefixes": {
     "orel": "http://www.opengis.net/def/rel/",
     "dct": "http://purl.org/dc/terms/",
     "dcat": "https://w3c.github.io/dxwg/dcat/",
-    "geojson": "https://purl.org/geojson/vocab#",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "iana": "https://www.iana.org/assignments/media-types/",
-    "rel": "http://www.iana.org/assignments/relation/"
+    "rel": "http://www.iana.org/assignments/relation/",
+    "geojson": "https://purl.org/geojson/vocab#"
   }
 }

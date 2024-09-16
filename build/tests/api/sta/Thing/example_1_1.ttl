@@ -1,1 +1,6 @@
-# Empty Turtle file
+@prefix sta: <https://schemas.opengis.org/sta/def/core#> .
+
+<http://w3id.org/ogcincubator/bblocks-sta/1> sta:Datastreams "Things(1)/Datastreams" ;
+    sta:HistoricalLocations "Things(1)/HistoricalLocations" ;
+    sta:Locations "Things(1)/Locations" .
+

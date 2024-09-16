@@ -9,7 +9,7 @@ A Sensor is an instrument that observes a property or phenomenon with the goal o
 
 ## Description
 
-## What is represents
+## Sensor
 
 A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.
 STA sensor is based on the concept from [OGC and ISO 19156:2001, OGC 10-004r3 and ISO 19156:2011(E), OGC Abstract Specification: Geographic information — Observations and Measurements.](http://portal.opengeospatial.org/files/?artifact_id=41579)
@@ -19,9 +19,6 @@ For compliance with SwaggerHub where the schema can be referred:
 - type of id is not specified, while it shall be string or number
 - type of metadata property is not specified, while it shall be string or object
 
-> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel
-> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si
-> Asida instabilesque somno sed.
 
 ## References
 
@@ -109,31 +106,16 @@ properties:
     type: string
     description: Reference link to the DataStream Definition.
 x-jsonld-extra-terms:
-  feature:
-    x-jsonld-id: https://purl.org/geojson/vocab#Feature
-    x-jsonld-context:
-      type: '@type'
-      coordinates:
-        '@container': '@list'
-        '@id': https://purl.org/geojson/vocab#coordinates
-  LineString: https://purl.org/geojson/vocab#LineString
-  MultiLineString: https://purl.org/geojson/vocab#MultiLineString
-  MultiPoint: https://purl.org/geojson/vocab#MultiPoint
-  MultiPolygon: https://purl.org/geojson/vocab#MultiPolygon
-  Point: https://purl.org/geojson/vocab#Point
-  Polygon: https://purl.org/geojson/vocab#Polygon
-  geometry: https://purl.org/geojson/vocab#geometry
-  Observations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Observation
+  Observations@iot.navigationLink: https://www.w3.org/TR/vocab-ssn/#madeObservation
 x-jsonld-prefixes:
   orel: http://www.opengis.net/def/rel/
   dct: http://purl.org/dc/terms/
   dcat: https://w3c.github.io/dxwg/dcat/
-  geojson: https://purl.org/geojson/vocab#
-  sta: https://schemas.opengis.org/sta/def/core#
   sosa: https://www.w3.org/TR/vocab-ssn/#
-  skos: http://www.w3.org/2004/02/skos/core#
+  sta: https://schemas.opengis.org/sta/def/core#
   iana: https://www.iana.org/assignments/media-types/
   rel: http://www.iana.org/assignments/relation/
+  geojson: https://purl.org/geojson/vocab#
 
 ```
 
@@ -153,33 +135,15 @@ Links to the schema:
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",
-    "feature": {
-      "@id": "geojson:Feature",
-      "@context": {
-        "type": "@type",
-        "coordinates": {
-          "@container": "@list",
-          "@id": "geojson:coordinates"
-        }
-      }
-    },
-    "LineString": "geojson:LineString",
-    "MultiLineString": "geojson:MultiLineString",
-    "MultiPoint": "geojson:MultiPoint",
-    "MultiPolygon": "geojson:MultiPolygon",
-    "Point": "geojson:Point",
-    "Polygon": "geojson:Polygon",
-    "geometry": "geojson:geometry",
-    "Observations@iot.navigationLink": "sta:Observation",
+    "Observations@iot.navigationLink": "sosa:madeObservation",
     "orel": "http://www.opengis.net/def/rel/",
     "dct": "http://purl.org/dc/terms/",
     "dcat": "https://w3c.github.io/dxwg/dcat/",
-    "geojson": "https://purl.org/geojson/vocab#",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "iana": "https://www.iana.org/assignments/media-types/",
     "rel": "http://www.iana.org/assignments/relation/",
+    "geojson": "https://purl.org/geojson/vocab#",
     "@version": 1.1
   }
 }
@@ -190,7 +154,7 @@ You can find the full JSON-LD context here:
 
 ## Sources
 
-* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html)
+* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html#sensor)
 
 # For developers
 

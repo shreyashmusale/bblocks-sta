@@ -10,18 +10,20 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-04-09",
+  "dateOfLastChange": "2024-09-16",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
       "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
-      "link": "https://docs.ogc.org/is/18-088/18-088.html"
+      "link": "https://docs.ogc.org/is/18-088/18-088.html#thing"
     }
   ],
   "maturity": "mature",
   "scope": "unstable",
   "tags": [
-    "templates"
+    "STA",
+    "OMS",
+    "SOSA"
   ],
   "shaclRules": {},
   "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld",
@@ -29,12 +31,12 @@
     "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.yaml",
     "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.json"
   },
-  "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/context.jsonld",
   "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/schema.yaml",
+  "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/",
-  "validationPassed": false,
+  "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Thing/",
-  "description": "## What is represents\n\nThe OGC SensorThings API follows the ITU-T definition, i.e., with regard to the Internet of Things, a thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks [ITU-T Y.2060].\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](https://docs.ogc.org/is/18-088/18-088.html#thing)\n",
+  "description": "## Thing\n\nThe OGC SensorThings API follows the ITU-T definition, i.e., with regard to the Internet of Things, a thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks [ITU-T Y.2060].\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](https://docs.ogc.org/is/18-088/18-088.html#thing)\n",
   "examples": [
     {
       "title": "Observation whose Datastream has an ObservationType of OM_Measurement. A result\u2019s data type is defined by the observationType.",
@@ -53,13 +55,13 @@
         },
         {
           "language": "ttl",
-          "code": "\n",
+          "code": "@prefix sta: <https://schemas.opengis.org/sta/def/core#> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/1> sta:Datastreams \"Things(1)/Datastreams\" ;\n    sta:HistoricalLocations \"Things(1)/HistoricalLocations\" ;\n    sta:Locations \"Things(1)/Locations\" .\n\n",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Thing/example_1_1.ttl"
         }
       ]
     }
   ],
-  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\ntitle: Observation object\ndescription: Schema for Sensor things API 1.3 Observation\ntype: object\nproperties:\n  '@iot.id':\n    type:\n    - string\n    - number\n    description: The Id of the observation\n    x-jsonld-id: '@id'\n  '@iot.selfLink':\n    type: string\n    description: The direct link to the entity\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink\n  parameters:\n    type: object\n  phenomenonTime:\n    type: string\n    description: The time when the observation happened. or Time Interval string (e.g.,\n      2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#phenomenonTime\n  result:\n    description: The estimated value of the observed property. Type depends on the\n      observationType defined in the associated Datastream\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasSimpleResult\n  resultQuality:\n    type: string\n    description: A description of the quality of the result. Type DQ_Element.\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#resultQuality\n  resultTime:\n    type: string\n    description: The time the result was generated. TM_Instant (ISO 8601 Time string)\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultTime\n  validTime:\n    type: string\n    description: The time period during which the result can be used. TM_Period (ISO\n      8601 Time Interval string)\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#validTime\n  Datastream@iot.navigationLink:\n    type: string\n    description: Reference link to the DataStream Definition.\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#DataStream\n  FeatureOfInterest@iot.navigationLink:\n    type: string\n    description: Reference link to the FeatureOfInterest.\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest\nx-jsonld-prefixes:\n  sta: https://schemas.opengis.org/sta/def/core#\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n  rel: http://www.iana.org/assignments/relation/\n",
+  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\ntitle: Observation object\ndescription: Schema for Sensor things API 1.3 Observation\ntype: object\nproperties:\n  '@iot.id':\n    type:\n    - string\n    - number\n    description: The Id of the observation\n    x-jsonld-id: '@id'\n  '@iot.selfLink':\n    type: string\n    description: The direct link to the entity\n    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self\n  parameters:\n    type: object\n  phenomenonTime:\n    type: string\n    description: The time when the observation happened. or Time Interval string (e.g.,\n      2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)\n  result:\n    description: The estimated value of the observed property. Type depends on the\n      observationType defined in the associated Datastream\n  resultQuality:\n    type: string\n    description: A description of the quality of the result. Type DQ_Element.\n  resultTime:\n    type: string\n    description: The time the result was generated. TM_Instant (ISO 8601 Time string)\n  validTime:\n    type: string\n    description: The time period during which the result can be used. TM_Period (ISO\n      8601 Time Interval string)\n  Datastream@iot.navigationLink:\n    type: string\n    description: Reference link to the DataStream Definition.\n  FeatureOfInterest@iot.navigationLink:\n    type: string\n    description: Reference link to the FeatureOfInterest.\nx-jsonld-extra-terms:\n  Locations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Locations\n  Datastreams@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Datastreams\n  HistoricalLocations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#HistoricalLocations\nx-jsonld-prefixes:\n  orel: http://www.opengis.net/def/rel/\n  sta: https://schemas.opengis.org/sta/def/core#\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n  rel: http://www.iana.org/assignments/relation/\n",
   "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
   "gitPath": "_sources/Thing"
 }

@@ -1,16 +1,17 @@
 {
   "@context": {
     "@iot.id": "@id",
-    "@iot.selfLink": "sta:selfLink",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "phenomenonTime": "sosa:phenomenonTime",
     "result": "sosa:hasSimpleResult",
-    "resultQuality": "sta:resultQuality",
+    "resultQuality": "sosa:resultQuality",
     "resultTime": "sosa:resultTime",
     "validTime": "sta:validTime",
-    "Datastream@iot.navigationLink": "sta:DataStream",
+    "Datastream@iot.navigationLink": "sosa:isMemberOf",
     "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
+    "orel": "http://www.opengis.net/def/rel/",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "rel": "http://www.iana.org/assignments/relation/",
     "@version": 1.1
   }

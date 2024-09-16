@@ -1,0 +1,4 @@
+path	@id
+/@iot.id	@id
+/@iot.selfLink	http://www.opengis.net/def/rel/iana/1.0/self
+/Observations@iot.navigationLink	https://www.w3.org/TR/vocab-ssn/#hasMember

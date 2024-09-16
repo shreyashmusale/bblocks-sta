@@ -1,7 +1,7 @@
 {
   "@context": {
     "@iot.id": "@id",
-    "@iot.selfLink": "sta:selfLink",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "name": "dct:title",
     "description": "dct:description",
     "encodingType": "dcat:mediaType",
@@ -23,10 +23,10 @@
     "Point": "geojson:Point",
     "Polygon": "geojson:Polygon",
     "geometry": "geojson:geometry",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
     "dct": "http://purl.org/dc/terms/",
     "dcat": "https://w3c.github.io/dxwg/dcat/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "iana": "https://www.iana.org/assignments/media-types/",

@@ -9,7 +9,7 @@ A thing is an object of the physical world (physical things) or the information 
 
 ## Description
 
-## What is represents
+## Thing
 
 The OGC SensorThings API follows the ITU-T definition, i.e., with regard to the Internet of Things, a thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks [ITU-T Y.2060].
 
@@ -17,10 +17,6 @@ The OGC SensorThings API follows the ITU-T definition, i.e., with regard to the 
 For compliance with SwaggerHub where the schema can be referred:
 - type of id is not specified, while it shall be string or number
 
-
-> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel
-> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si
-> Asida instabilesque somno sed.
 
 ## References
 
@@ -68,6 +64,11 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](
 
 #### ttl
 ```ttl
+@prefix sta: <https://schemas.opengis.org/sta/def/core#> .
+
+<http://w3id.org/ogcincubator/bblocks-sta/1> sta:Datastreams "Things(1)/Datastreams" ;
+    sta:HistoricalLocations "Things(1)/HistoricalLocations" ;
+    sta:Locations "Things(1)/Locations" .
 
 
 ```
@@ -89,40 +90,38 @@ properties:
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink
+    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self
   parameters:
     type: object
   phenomenonTime:
     type: string
     description: The time when the observation happened. or Time Interval string (e.g.,
       2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#phenomenonTime
   result:
     description: The estimated value of the observed property. Type depends on the
       observationType defined in the associated Datastream
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasSimpleResult
   resultQuality:
     type: string
     description: A description of the quality of the result. Type DQ_Element.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#resultQuality
   resultTime:
     type: string
     description: The time the result was generated. TM_Instant (ISO 8601 Time string)
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultTime
   validTime:
     type: string
     description: The time period during which the result can be used. TM_Period (ISO
       8601 Time Interval string)
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#validTime
   Datastream@iot.navigationLink:
     type: string
     description: Reference link to the DataStream Definition.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#DataStream
   FeatureOfInterest@iot.navigationLink:
     type: string
     description: Reference link to the FeatureOfInterest.
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest
+x-jsonld-extra-terms:
+  Locations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Locations
+  Datastreams@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Datastreams
+  HistoricalLocations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#HistoricalLocations
 x-jsonld-prefixes:
+  orel: http://www.opengis.net/def/rel/
   sta: https://schemas.opengis.org/sta/def/core#
   sosa: https://www.w3.org/TR/vocab-ssn/#
   rel: http://www.iana.org/assignments/relation/
@@ -141,14 +140,11 @@ Links to the schema:
 {
   "@context": {
     "@iot.id": "@id",
-    "@iot.selfLink": "sta:selfLink",
-    "phenomenonTime": "sosa:phenomenonTime",
-    "result": "sosa:hasSimpleResult",
-    "resultQuality": "sta:resultQuality",
-    "resultTime": "sosa:resultTime",
-    "validTime": "sta:validTime",
-    "Datastream@iot.navigationLink": "sta:DataStream",
-    "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest",
+    "@iot.selfLink": "orel:iana/1.0/self",
+    "Locations@iot.navigationLink": "sta:Locations",
+    "Datastreams@iot.navigationLink": "sta:Datastreams",
+    "HistoricalLocations@iot.navigationLink": "sta:HistoricalLocations",
+    "orel": "http://www.opengis.net/def/rel/",
     "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
     "rel": "http://www.iana.org/assignments/relation/",
@@ -162,7 +158,7 @@ You can find the full JSON-LD context here:
 
 ## Sources
 
-* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html)
+* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html#thing)
 
 # For developers
 

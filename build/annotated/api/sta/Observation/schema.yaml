@@ -12,7 +12,7 @@ properties:
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink
+    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self
   parameters:
     type: object
   phenomenonTime:
@@ -27,7 +27,7 @@ properties:
   resultQuality:
     type: string
     description: A description of the quality of the result. Type DQ_Element.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#resultQuality
+    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultQuality
   resultTime:
     type: string
     description: The time the result was generated. TM_Instant (ISO 8601 Time string)
@@ -40,12 +40,13 @@ properties:
   Datastream@iot.navigationLink:
     type: string
     description: Reference link to the DataStream Definition.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#DataStream
+    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#isMemberOf
   FeatureOfInterest@iot.navigationLink:
     type: string
     description: Reference link to the FeatureOfInterest.
     x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest
 x-jsonld-prefixes:
-  sta: https://schemas.opengis.org/sta/def/core#
+  orel: http://www.opengis.net/def/rel/
   sosa: https://www.w3.org/TR/vocab-ssn/#
+  sta: https://schemas.opengis.org/sta/def/core#
   rel: http://www.iana.org/assignments/relation/

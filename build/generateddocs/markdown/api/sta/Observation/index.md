@@ -18,10 +18,6 @@ For compliance with SwaggerHub where the schema can be referred:
 - type of id is not specified, while it shall be string or number
 
 
-> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel
-> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si
-> Asida instabilesque somno sed.
-
 ## References
 
 Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observation](https://docs.ogc.org/is/18-088/18-088.html#observation)
@@ -60,12 +56,11 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observa
 #### ttl
 ```ttl
 @prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .
-@prefix sta: <https://schemas.opengis.org/sta/def/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://w3id.org/ogcincubator/bblocks-sta/1> sta:DataStream "Observations(1)/Datastream" ;
-    sosa1:hasFeatureOfInterest "Observations(1)/FeatureOfInterest" ;
+<http://w3id.org/ogcincubator/bblocks-sta/1> sosa1:hasFeatureOfInterest "Observations(1)/FeatureOfInterest" ;
     sosa1:hasSimpleResult 7.04e+01 ;
+    sosa1:isMemberOf "Observations(1)/Datastream" ;
     sosa1:phenomenonTime "2014-12-31T11:59:59.00+08:00" ;
     sosa1:resultTime "2014-12-31T11:59:59.00+08:00" .
 
@@ -89,7 +84,7 @@ properties:
   '@iot.selfLink':
     type: string
     description: The direct link to the entity
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#selfLink
+    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self
   parameters:
     type: object
   phenomenonTime:
@@ -104,7 +99,7 @@ properties:
   resultQuality:
     type: string
     description: A description of the quality of the result. Type DQ_Element.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#resultQuality
+    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultQuality
   resultTime:
     type: string
     description: The time the result was generated. TM_Instant (ISO 8601 Time string)
@@ -117,14 +112,15 @@ properties:
   Datastream@iot.navigationLink:
     type: string
     description: Reference link to the DataStream Definition.
-    x-jsonld-id: https://schemas.opengis.org/sta/def/core#DataStream
+    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#isMemberOf
   FeatureOfInterest@iot.navigationLink:
     type: string
     description: Reference link to the FeatureOfInterest.
     x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest
 x-jsonld-prefixes:
-  sta: https://schemas.opengis.org/sta/def/core#
+  orel: http://www.opengis.net/def/rel/
   sosa: https://www.w3.org/TR/vocab-ssn/#
+  sta: https://schemas.opengis.org/sta/def/core#
   rel: http://www.iana.org/assignments/relation/
 
 ```
@@ -141,16 +137,17 @@ Links to the schema:
 {
   "@context": {
     "@iot.id": "@id",
-    "@iot.selfLink": "sta:selfLink",
+    "@iot.selfLink": "orel:iana/1.0/self",
     "phenomenonTime": "sosa:phenomenonTime",
     "result": "sosa:hasSimpleResult",
-    "resultQuality": "sta:resultQuality",
+    "resultQuality": "sosa:resultQuality",
     "resultTime": "sosa:resultTime",
     "validTime": "sta:validTime",
-    "Datastream@iot.navigationLink": "sta:DataStream",
+    "Datastream@iot.navigationLink": "sosa:isMemberOf",
     "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest",
-    "sta": "https://schemas.opengis.org/sta/def/core#",
+    "orel": "http://www.opengis.net/def/rel/",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+    "sta": "https://schemas.opengis.org/sta/def/core#",
     "rel": "http://www.iana.org/assignments/relation/",
     "@version": 1.1
   }
@@ -162,7 +159,7 @@ You can find the full JSON-LD context here:
 
 ## Sources
 
-* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html)
+* [OGC SensorThings API Part 1: Sensing Version 1.1](https://docs.ogc.org/is/18-088/18-088.html#observation)
 
 # For developers
 
