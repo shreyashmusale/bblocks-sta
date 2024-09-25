@@ -2,7 +2,8 @@
   "@context": [
     {
       "sta": "https://schemas.opengis.org/sta/def/core#",
-      "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "dct":  "http://purl.org/dc/terms/",
       "rel": "http://www.iana.org/assignments/relation/",
       "orel": "http://www.opengis.net/def/rel/"
     },
@@ -14,11 +15,19 @@
       "description": "dct:description",
       "resultQuality": "sosa:resultQuality",
       "resultTime": "sosa:resultTime",
-      "validTime": "sta:validTime",
-      "Observations@iot.navigationLink": "sosa:hasMember",
-      "ObservedProperty@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty",
-      "Sensor@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor",
-      "Thing@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing"
+      "validTime": "sosa:validTime",
+      "ObservedProperty@iot.navigationLink": {
+        "@id": "sosa:observedProperty",
+        "@type": "@id"
+      },
+      "Sensor@iot.navigationLink":  {
+        "@id": "sosa:madeBySensor",
+        "@type": "@id"
+      },
+      "Thing@iot.navigationLink":  {
+        "@id": "sosa:featureOfInterest",
+        "@type": "@id"
+      }
     }
   ]
 }

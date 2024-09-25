@@ -1,6 +1,8 @@
-## What is represents
+## What it represents
 
 A Datastream groups a collection of Observations measuring the same ObservedProperty and produced by the same Sensor. [https://docs.ogc.org/is/18-088/18-088.html#datastream].
+
+Datastreams may be raw values or observation objects inheriting common property values from the Datastream description.
 
 ### Limitations
 

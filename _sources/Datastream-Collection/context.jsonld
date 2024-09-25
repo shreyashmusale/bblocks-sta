@@ -1,0 +1,10 @@
+{
+  "@context":
+    {
+      "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+      "Observations@iot.navigationLink":  {
+        "@id": "sosa:hasMember",
+        "@type": "@id"
+      }
+    }
+}

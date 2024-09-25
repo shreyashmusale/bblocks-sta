@@ -1,6 +1,6 @@
 "$schema": "http://json-schema.org/draft-04/schema#"
 title: Datastream object
-description: "Schema for Sensor things API 1.3 Datastream"
+description: "Schema for Sensor things API 1.3 Datastream, inferred from OpenAPI implementations"
 type: object
 properties:
   "@iot.id":
