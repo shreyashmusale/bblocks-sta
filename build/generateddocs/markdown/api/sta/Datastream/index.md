@@ -9,9 +9,11 @@ Metadata about a coherent set of observations, linked to value stream. [OGC 10-0
 
 ## Description
 
-## What is represents
+## What it represents
 
 A Datastream groups a collection of Observations measuring the same ObservedProperty and produced by the same Sensor. [https://docs.ogc.org/is/18-088/18-088.html#datastream].
+
+Datastreams may be raw values or observation objects inheriting common property values from the Datastream description.
 
 ### Limitations
 
@@ -66,16 +68,14 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 
 #### ttl
 ```ttl
-@prefix ns1: <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/> .
-@prefix ns2: <dct:> .
-@prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
 
-<http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> ns2:description "The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property" ;
-    ns2:title "2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c" ;
-    ns1:ObservedProperty "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty" ;
-    ns1:Sensor "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor" ;
-    ns1:Thing "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing" ;
-    sosa1:hasMember "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations" .
+<http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> dcterms:description "The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property" ;
+    dcterms:title "2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c" ;
+    sosa:featureOfInterest <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing> ;
+    sosa:madeBySensor <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor> ;
+    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> .
 
 
 ```
@@ -85,7 +85,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 ```yaml
 $schema: http://json-schema.org/draft-04/schema#
 title: Datastream object
-description: Schema for Sensor things API 1.3 Datastream
+description: Schema for Sensor things API 1.3 Datastream, inferred from OpenAPI implementations
 type: object
 properties:
   '@iot.id':
@@ -101,20 +101,26 @@ properties:
   Observations@iot.navigationLink:
     type: string
     description: Reference link to stream of Observations.
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasMember
 x-jsonld-extra-terms:
-  phenomenonTime: https://www.w3.org/TR/vocab-ssn/#phenomenonTime
-  name: dct:title
-  description: dct:description
-  resultQuality: https://www.w3.org/TR/vocab-ssn/#resultQuality
-  resultTime: https://www.w3.org/TR/vocab-ssn/#resultTime
-  validTime: https://schemas.opengis.org/sta/def/core#validTime
-  ObservedProperty@iot.navigationLink: https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty
-  Sensor@iot.navigationLink: https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor
-  Thing@iot.navigationLink: https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing
+  phenomenonTime: http://www.w3.org/ns/sosa/phenomenonTime
+  name: http://purl.org/dc/terms/title
+  description: http://purl.org/dc/terms/description
+  resultQuality: http://www.w3.org/ns/sosa/resultQuality
+  resultTime: http://www.w3.org/ns/sosa/resultTime
+  validTime: http://www.w3.org/ns/sosa/validTime
+  ObservedProperty@iot.navigationLink:
+    x-jsonld-id: http://www.w3.org/ns/sosa/observedProperty
+    x-jsonld-type: '@id'
+  Sensor@iot.navigationLink:
+    x-jsonld-id: http://www.w3.org/ns/sosa/madeBySensor
+    x-jsonld-type: '@id'
+  Thing@iot.navigationLink:
+    x-jsonld-id: http://www.w3.org/ns/sosa/featureOfInterest
+    x-jsonld-type: '@id'
 x-jsonld-prefixes:
   orel: http://www.opengis.net/def/rel/
-  sosa: https://www.w3.org/TR/vocab-ssn/#
+  sosa: http://www.w3.org/ns/sosa/
+  dct: http://purl.org/dc/terms/
   sta: https://schemas.opengis.org/sta/def/core#
   rel: http://www.iana.org/assignments/relation/
 
@@ -133,18 +139,27 @@ Links to the schema:
   "@context": {
     "@iot.id": "@id",
     "@iot.selfLink": "orel:iana/1.0/self",
-    "Observations@iot.navigationLink": "sosa:hasMember",
     "phenomenonTime": "sosa:phenomenonTime",
     "name": "dct:title",
     "description": "dct:description",
     "resultQuality": "sosa:resultQuality",
     "resultTime": "sosa:resultTime",
-    "validTime": "sta:validTime",
-    "ObservedProperty@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty",
-    "Sensor@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor",
-    "Thing@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing",
+    "validTime": "sosa:validTime",
+    "ObservedProperty@iot.navigationLink": {
+      "@id": "sosa:observedProperty",
+      "@type": "@id"
+    },
+    "Sensor@iot.navigationLink": {
+      "@id": "sosa:madeBySensor",
+      "@type": "@id"
+    },
+    "Thing@iot.navigationLink": {
+      "@id": "sosa:featureOfInterest",
+      "@type": "@id"
+    },
     "orel": "http://www.opengis.net/def/rel/",
-    "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "dct": "http://purl.org/dc/terms/",
     "sta": "https://schemas.opengis.org/sta/def/core#",
     "rel": "http://www.iana.org/assignments/relation/",
     "@version": 1.1

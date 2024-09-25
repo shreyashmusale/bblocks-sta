@@ -20,6 +20,10 @@
       "@id": "sosa:featureOfInterest",
       "@type": "@id"
     },
+    "Observations@iot.navigationLink": {
+      "@id": "https://www.w3.org/TR/vocab-ssn/#hasMember",
+      "@type": "@id"
+    },
     "orel": "http://www.opengis.net/def/rel/",
     "sosa": "http://www.w3.org/ns/sosa/",
     "dct": "http://purl.org/dc/terms/",

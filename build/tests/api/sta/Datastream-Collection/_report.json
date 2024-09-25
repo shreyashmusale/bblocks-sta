@@ -1,16 +1,16 @@
 {
-  "title": "Validation report for ogc.api.sta.Datastream - SensorThings API Datastream",
-  "bblockName": "SensorThings API Datastream",
-  "bblockId": "ogc.api.sta.Datastream",
-  "generated": "2024-09-25T01:58:08.837084+00:00",
+  "title": "Validation report for ogc.api.sta.Datastream-Collection - STA Datastream as ObsCollection",
+  "bblockName": "STA Datastream as ObsCollection",
+  "bblockId": "ogc.api.sta.Datastream-Collection",
+  "generated": "2024-09-25T01:58:08.882225+00:00",
   "result": true,
   "items": [
     {
       "source": {
         "type": "EXAMPLE",
         "requireFail": false,
-        "filename": "build/tests/api/sta/Datastream/example_1_1.json",
-        "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream/example_1_1.json",
+        "filename": "build/tests/api/sta/Datastream-Collection/example_1_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "json"
@@ -40,7 +40,7 @@
               "op": "ttl-create",
               "empty": false,
               "filename": "example_1_1.ttl",
-              "size": 5,
+              "size": 6,
               "isError": false,
               "message": "Output Turtle example_1_1.ttl created"
             }

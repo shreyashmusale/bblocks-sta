@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "allOf": [
+    {
+      "$ref": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.json"
+    }
+  ],
+  "x-jsonld-extra-terms": {
+    "Observations@iot.navigationLink": {
+      "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#hasMember",
+      "x-jsonld-type": "@id"
+    }
+  },
+  "x-jsonld-prefixes": {
+    "sosa": "https://www.w3.org/TR/vocab-ssn/#"
+  }
+}

@@ -1,0 +1,70 @@
+
+
+{
+  "itemIdentifier": "ogc.api.sta.Datastream-Collection",
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "STA Datastream as ObsCollection",
+  "abstract": "Metadata about a coherent set of observations - linked to a stream of observations. [OGC 10-004r3 / ISO 19156:2011]",
+  "status": "under-development",
+  "dateTimeAddition": "2024-02-09T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-09-25",
+  "link": "https://github.com/opengeospatial/bblock-template",
+  "sources": [
+    {
+      "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
+      "link": "https://docs.ogc.org/is/18-088/18-088.html#datastream"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "STA",
+    "OMS",
+    "SOSA"
+  ],
+  "shaclRules": {},
+  "dependsOn": [
+    "ogc.api.sta.Datastream"
+  ],
+  "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
+  "schema": {
+    "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.json"
+  },
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/schema.yaml",
+  "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/context.jsonld",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream-Collection/",
+  "description": "## What it represents\n\nForces the datastream to be an upper-level ObservationCollection setting common values, and the values stream to be regarded as a link to an ObservationCollection\n\n### Limitations\n\nTBD\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastream](https://docs.ogc.org/is/18-088/18-088.html#datastream)\n",
+  "examples": [
+    {
+      "title": "Observation whose Datastream has an ObservationType of OM_Measurement. A result\u2019s data type is defined by the observationType.",
+      "base-uri": "http://w3id.org/ogcincubator/bblocks-sta/",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/pnsc-sta.json",
+          "code": "{\n  \"unitOfMeasurement\": {\n    \"name\": \"Unitless\",\n    \"definition\": \"http://qudt.org/schema/qudt/UNITLESS\"\n  },\n  \"description\": \"The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property\",\n  \"name\": \"2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c\",\n  \"observationType\": \"http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement\",\n  \"@iot.id\": \"2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c\",\n  \"@iot.selfLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)\",\n  \"Observations@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations\",\n  \"ObservedProperty@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty\",\n  \"Sensor@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor\",\n  \"Thing@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing\"\n}\n",
+          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"unitOfMeasurement\": {\n    \"name\": \"Unitless\",\n    \"definition\": \"http://qudt.org/schema/qudt/UNITLESS\"\n  },\n  \"description\": \"The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property\",\n  \"name\": \"2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c\",\n  \"observationType\": \"http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement\",\n  \"@iot.id\": \"2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c\",\n  \"@iot.selfLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)\",\n  \"Observations@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations\",\n  \"ObservedProperty@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty\",\n  \"Sensor@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor\",\n  \"Thing@iot.navigationLink\": \"https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing\",\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld\"\n}",
+          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix ns1: <https://www.w3.org/TR/vocab-ssn/#> .\n@prefix sosa: <http://www.w3.org/ns/sosa/> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> dcterms:description \"The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property\" ;\n    dcterms:title \"2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c\" ;\n    sosa:featureOfInterest <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing> ;\n    sosa:madeBySensor <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor> ;\n    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> ;\n    ns1:hasMember <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations> .\n\n",
+          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.ttl"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\nallOf:\n- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml\nx-jsonld-extra-terms:\n  Observations@iot.navigationLink:\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasMember\n    x-jsonld-type: '@id'\nx-jsonld-prefixes:\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
+  "gitPath": "_sources/Datastream-Collection"
+}

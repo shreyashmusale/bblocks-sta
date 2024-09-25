@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-09-16",
+  "dateOfLastChange": "2024-09-25",
   "link": "https://github.com/opengeospatial/sta-bblock",
   "sources": [
     {

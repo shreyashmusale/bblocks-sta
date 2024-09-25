@@ -1,0 +1,74 @@
+{
+  "@iot.count": 3,
+  "value": [
+    {
+      "result": {
+        "type": "https://w3id.org/iliad/oim/ext/jellyfish/JellyFishAbundance",
+        "label": "Result for jelly fish observation made by: 5432 on: 2024-03-30T11:35:00 location: 5 species: Rhopilema nomadica",
+        "identifier": "9fff93dc8112faf563c83c0cbeade0e7",
+        "aphiaID": "https://marinespecies.org/aphia.php?p=taxdetails&id=232032",
+        "individualCount": "6-50",
+        "sampleSizeValue": "11-30",
+        "scientificName": "Rhopilema nomadica",
+        "stingByJellyFish": "1",
+        "strandedJellyfish": "Beach+Sea",
+        "organismQuantity": "Some",
+        "organismQuantityType": "individuals",
+        "sampleSizeUnit": "cm",
+        "scientificNameID": "https://marinespecies.org/aphia.php?p=taxdetails&id=232032"
+      },
+      "phenomenonTime": "2024-03-30T11:35:00",
+      "resultTime": "2024-03-30T11:35:00",
+      "@iot.id": "5c9828ee2b0cb39ae13fc06dd238960f",
+      "@iot.selfLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('5c9828ee2b0cb39ae13fc06dd238960f')",
+      "Datastream@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('5c9828ee2b0cb39ae13fc06dd238960f')/Datastream",
+      "FeatureOfInterest@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('5c9828ee2b0cb39ae13fc06dd238960f')/FeatureOfInterest"
+    },
+    {
+      "result": {
+        "type": "https://w3id.org/iliad/oim/ext/jellyfish/JellyFishAbundance",
+        "label": "Result for jelly fish observation made by: 5432 on: 2024-03-30T11:17:00 location: 1 species: Rhopilema nomadica",
+        "identifier": "cdc6d5dfd68abd526a43df7ccd099b70",
+        "aphiaID": "https://marinespecies.org/aphia.php?p=taxdetails&id=232032",
+        "individualCount": "1-5",
+        "sampleSizeValue": "11-30",
+        "scientificName": "Rhopilema nomadica",
+        "stingByJellyFish": "0",
+        "strandedJellyfish": "0",
+        "organismQuantity": "Few",
+        "organismQuantityType": "individuals",
+        "sampleSizeUnit": "cm",
+        "scientificNameID": "https://marinespecies.org/aphia.php?p=taxdetails&id=232032"
+      },
+      "phenomenonTime": "2024-03-30T11:17:00",
+      "resultTime": "2024-03-30T11:17:00",
+      "@iot.id": "ec36b55fb78177474b2f5ec2227c0818",
+      "@iot.selfLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('ec36b55fb78177474b2f5ec2227c0818')",
+      "Datastream@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('ec36b55fb78177474b2f5ec2227c0818')/Datastream",
+      "FeatureOfInterest@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('ec36b55fb78177474b2f5ec2227c0818')/FeatureOfInterest"
+    },
+    {
+      "result": {
+        "type": "https://w3id.org/iliad/oim/ext/jellyfish/JellyFishAbundance",
+        "label": "Result for jelly fish observation made by: 5432 on: 2024-03-30T11:17:00 location: 1 species: Other",
+        "identifier": "4f09272faa610d8ad453ee42cd8deaef",
+        "aphiaID": "Other",
+        "individualCount": "1-5",
+        "sampleSizeValue": "11-30",
+        "scientificName": "Other",
+        "stingByJellyFish": "0",
+        "strandedJellyfish": "0",
+        "organismQuantity": "Few",
+        "organismQuantityType": "individuals",
+        "sampleSizeUnit": "cm",
+        "scientificNameID": "Other"
+      },
+      "phenomenonTime": "2024-03-30T11:17:00",
+      "resultTime": "2024-03-30T11:17:00",
+      "@iot.id": "af6992915f7037c10949a4aab2119109",
+      "@iot.selfLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')",
+      "Datastream@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/Datastream",
+      "FeatureOfInterest@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/FeatureOfInterest"
+    }
+  ]
+}

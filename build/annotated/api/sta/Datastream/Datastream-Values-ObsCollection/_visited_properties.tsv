@@ -1,0 +1,13 @@
+path	@id
+/@iot.count	https://www.w3.org/TR/vocab-ssn/#collectionCount
+/value	@graph
+/value/@iot.id	@id
+/value/@iot.selfLink	http://www.opengis.net/def/rel/iana/1.0/self
+/value/parameters	
+/value/phenomenonTime	https://www.w3.org/TR/vocab-ssn/#phenomenonTime
+/value/result	https://www.w3.org/TR/vocab-ssn/#hasSimpleResult
+/value/resultQuality	https://www.w3.org/TR/vocab-ssn/#resultQuality
+/value/resultTime	https://www.w3.org/TR/vocab-ssn/#resultTime
+/value/validTime	https://schemas.opengis.org/sta/def/core#validTime
+/value/Datastream@iot.navigationLink	https://www.w3.org/TR/vocab-ssn/#isMemberOf
+/value/FeatureOfInterest@iot.navigationLink	https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest
