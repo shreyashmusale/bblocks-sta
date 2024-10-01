@@ -44,14 +44,14 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor]
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/Sensors(1)",
   "Datastreams@iot.navigationLink": "Sensors(1)/Datastreams",
   "name": "TMP36",
   "description": "TMP36 - Analog Temperature sensor",
   "encodingType": "application/pdf",
-  "metadata": "http://example.org/TMP35_36_37.pdf",
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld"
+  "metadata": "http://example.org/TMP35_36_37.pdf"
 }
 ```
 

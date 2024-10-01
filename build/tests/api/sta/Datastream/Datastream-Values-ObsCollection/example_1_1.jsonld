@@ -1,4 +1,5 @@
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
   "@iot.count": 3,
   "value": [
     {
@@ -70,6 +71,5 @@
       "Datastream@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/Datastream",
       "FeatureOfInterest@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/FeatureOfInterest"
     }
-  ],
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld"
+  ]
 }

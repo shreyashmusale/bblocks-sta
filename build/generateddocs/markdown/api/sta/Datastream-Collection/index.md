@@ -47,6 +47,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
   "unitOfMeasurement": {
     "name": "Unitless",
     "definition": "http://qudt.org/schema/qudt/UNITLESS"
@@ -59,8 +60,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
   "Observations@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations",
   "ObservedProperty@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty",
   "Sensor@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor",
-  "Thing@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing",
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld"
+  "Thing@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing"
 }
 ```
 

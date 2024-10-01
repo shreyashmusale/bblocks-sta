@@ -105,6 +105,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
   "@iot.count": 3,
   "value": [
     {
@@ -176,13 +177,31 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
       "Datastream@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/Datastream",
       "FeatureOfInterest@iot.navigationLink": "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/FeatureOfInterest"
     }
-  ],
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld"
+  ]
 }
 ```
 
 #### ttl
 ```ttl
+@prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .
+
+<http://w3id.org/ogcincubator/bblocks-sta/5c9828ee2b0cb39ae13fc06dd238960f> sosa1:hasFeatureOfInterest "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('5c9828ee2b0cb39ae13fc06dd238960f')/FeatureOfInterest" ;
+    sosa1:hasSimpleResult [ ] ;
+    sosa1:isMemberOf "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('5c9828ee2b0cb39ae13fc06dd238960f')/Datastream" ;
+    sosa1:phenomenonTime "2024-03-30T11:35:00" ;
+    sosa1:resultTime "2024-03-30T11:35:00" .
+
+<http://w3id.org/ogcincubator/bblocks-sta/af6992915f7037c10949a4aab2119109> sosa1:hasFeatureOfInterest "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/FeatureOfInterest" ;
+    sosa1:hasSimpleResult [ ] ;
+    sosa1:isMemberOf "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('af6992915f7037c10949a4aab2119109')/Datastream" ;
+    sosa1:phenomenonTime "2024-03-30T11:17:00" ;
+    sosa1:resultTime "2024-03-30T11:17:00" .
+
+<http://w3id.org/ogcincubator/bblocks-sta/ec36b55fb78177474b2f5ec2227c0818> sosa1:hasFeatureOfInterest "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('ec36b55fb78177474b2f5ec2227c0818')/FeatureOfInterest" ;
+    sosa1:hasSimpleResult [ ] ;
+    sosa1:isMemberOf "https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Observations('ec36b55fb78177474b2f5ec2227c0818')/Datastream" ;
+    sosa1:phenomenonTime "2024-03-30T11:17:00" ;
+    sosa1:resultTime "2024-03-30T11:17:00" .
 
 
 ```
@@ -222,20 +241,16 @@ Links to the schema:
 {
   "@context": {
     "@iot.count": "sosa:collectionCount",
-    "value": {
-      "@context": {
-        "@iot.id": "@id",
-        "@iot.selfLink": "orel:iana/1.0/self",
-        "phenomenonTime": "sosa:phenomenonTime",
-        "result": "sosa:hasSimpleResult",
-        "resultQuality": "sosa:resultQuality",
-        "resultTime": "sosa:resultTime",
-        "validTime": "sta:validTime",
-        "Datastream@iot.navigationLink": "sosa:isMemberOf",
-        "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest"
-      },
-      "@id": "@graph"
-    },
+    "@iot.id": "@id",
+    "@iot.selfLink": "orel:iana/1.0/self",
+    "phenomenonTime": "sosa:phenomenonTime",
+    "result": "sosa:hasSimpleResult",
+    "resultQuality": "sosa:resultQuality",
+    "resultTime": "sosa:resultTime",
+    "validTime": "sta:validTime",
+    "Datastream@iot.navigationLink": "sosa:isMemberOf",
+    "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest",
+    "value": "@graph",
     "Observations@iot.navigationLink": {
       "@id": "sosa:hasMember",
       "@type": "@id"

@@ -2,8 +2,8 @@
   "title": "Validation report for ogc.api.sta.Datastream.Datastream-Values-ObsCollection - SensorThings API Datastream Values as ObservationCollection",
   "bblockName": "SensorThings API Datastream Values as ObservationCollection",
   "bblockId": "ogc.api.sta.Datastream.Datastream-Values-ObsCollection",
-  "generated": "2024-09-25T01:58:08.873427+00:00",
-  "result": false,
+  "generated": "2024-10-01T09:05:42.788825+00:00",
+  "result": true,
   "items": [
     {
       "source": {
@@ -15,7 +15,7 @@
         "snippetIndex": 1,
         "language": "json"
       },
-      "result": false,
+      "result": true,
       "sections": [
         {
           "name": "FILES",
@@ -38,11 +38,11 @@
             },
             {
               "op": "ttl-create",
-              "empty": true,
+              "empty": false,
               "filename": "example_1_1.ttl",
-              "size": 0,
-              "isError": true,
-              "message": "**Empty** output Turtle example_1_1.ttl created"
+              "size": 15,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
             }
           ]
         },
@@ -64,7 +64,7 @@
   "globalErrors": {},
   "counts": {
     "total": 1,
-    "passed": 0,
-    "failed": 1
+    "passed": 1,
+    "failed": 0
   }
 }

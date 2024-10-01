@@ -49,6 +49,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/FeaturesOfInterest(1)",
   "Observations@iot.navigationLink": "FeaturesOfInterest(1)/Observations",
@@ -64,8 +65,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature
         51.05
       ]
     }
-  },
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld"
+  }
 }
 ```
 

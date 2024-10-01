@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-09-25",
+  "dateOfLastChange": "2024-02-09",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -48,7 +48,7 @@
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/FeaturesOfInterest(1)\",\n  \"Observations@iot.navigationLink\": \"FeaturesOfInterest(1)/Observations\",\n  \"name\": \"Weather Station YYC.\",\n  \"description\": \"This is a weather station located at the Calgary Airport.\",\n  \"encodingType\": \"application/geo+json\",\n  \"feature\": {\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"Point\",\n      \"coordinates\": [\n        -114.06,\n        51.05\n      ]\n    }\n  },\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld\"\n}",
+          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/FeaturesOfInterest(1)\",\n  \"Observations@iot.navigationLink\": \"FeaturesOfInterest(1)/Observations\",\n  \"name\": \"Weather Station YYC.\",\n  \"description\": \"This is a weather station located at the Calgary Airport.\",\n  \"encodingType\": \"application/geo+json\",\n  \"feature\": {\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"Point\",\n      \"coordinates\": [\n        -114.06,\n        51.05\n      ]\n    }\n  }\n}",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.jsonld"
         },
         {

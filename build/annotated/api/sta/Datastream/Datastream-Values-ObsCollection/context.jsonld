@@ -1,20 +1,16 @@
 {
   "@context": {
     "@iot.count": "sosa:collectionCount",
-    "value": {
-      "@context": {
-        "@iot.id": "@id",
-        "@iot.selfLink": "orel:iana/1.0/self",
-        "phenomenonTime": "sosa:phenomenonTime",
-        "result": "sosa:hasSimpleResult",
-        "resultQuality": "sosa:resultQuality",
-        "resultTime": "sosa:resultTime",
-        "validTime": "sta:validTime",
-        "Datastream@iot.navigationLink": "sosa:isMemberOf",
-        "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest"
-      },
-      "@id": "@graph"
-    },
+    "@iot.id": "@id",
+    "@iot.selfLink": "orel:iana/1.0/self",
+    "phenomenonTime": "sosa:phenomenonTime",
+    "result": "sosa:hasSimpleResult",
+    "resultQuality": "sosa:resultQuality",
+    "resultTime": "sosa:resultTime",
+    "validTime": "sta:validTime",
+    "Datastream@iot.navigationLink": "sosa:isMemberOf",
+    "FeatureOfInterest@iot.navigationLink": "sosa:hasFeatureOfInterest",
+    "value": "@graph",
     "Observations@iot.navigationLink": {
       "@id": "sosa:hasMember",
       "@type": "@id"

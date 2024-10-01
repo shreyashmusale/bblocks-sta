@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-09-25",
+  "dateOfLastChange": "2024-02-09",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -50,7 +50,7 @@
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Observations(1)\",\n  \"FeatureOfInterest@iot.navigationLink\": \"Observations(1)/FeatureOfInterest\",\n  \"Datastream@iot.navigationLink\": \"Observations(1)/Datastream\",\n  \"phenomenonTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"resultTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"result\": 70.4,\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld\"\n}",
+          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Observations(1)\",\n  \"FeatureOfInterest@iot.navigationLink\": \"Observations(1)/FeatureOfInterest\",\n  \"Datastream@iot.navigationLink\": \"Observations(1)/Datastream\",\n  \"phenomenonTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"resultTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"result\": 70.4\n}",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.jsonld"
         },
         {

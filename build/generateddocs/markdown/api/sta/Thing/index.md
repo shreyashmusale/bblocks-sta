@@ -47,6 +47,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/Things(1)",
   "Locations@iot.navigationLink": "Things(1)/Locations",
@@ -57,8 +58,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](
   "properties": {
     "owner": "Noah Liang",
     "color": "Black"
-  },
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld"
+  }
 }
 ```
 

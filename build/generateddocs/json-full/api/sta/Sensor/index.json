@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-09-25",
+  "dateOfLastChange": "2024-02-10",
   "link": "https://github.com/opengeospatial/sta-bblock",
   "sources": [
     {
@@ -50,7 +50,7 @@
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Sensors(1)\",\n  \"Datastreams@iot.navigationLink\": \"Sensors(1)/Datastreams\",\n  \"name\": \"TMP36\",\n  \"description\": \"TMP36 - Analog Temperature sensor\",\n  \"encodingType\": \"application/pdf\",\n  \"metadata\": \"http://example.org/TMP35_36_37.pdf\",\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld\"\n}",
+          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Sensors(1)\",\n  \"Datastreams@iot.navigationLink\": \"Sensors(1)/Datastreams\",\n  \"name\": \"TMP36\",\n  \"description\": \"TMP36 - Analog Temperature sensor\",\n  \"encodingType\": \"application/pdf\",\n  \"metadata\": \"http://example.org/TMP35_36_37.pdf\"\n}",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Sensor/example_1_1.jsonld"
         },
         {
