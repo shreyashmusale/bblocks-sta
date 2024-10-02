@@ -5,7 +5,7 @@ The OGC SensorThings API (STA) provides an open, geospatial-enabled and unified 
 # How to use this collection
 
 This collection allow to develop and validate STA compliant services payload with semantic annotations.
-It can be used either directly or as the reference to specialised Building Blocks.
+It can be used either directly or as the reference to specialised [Building Blocks](https://ogcincubator.github.io/bblocks-docs/).
 The compiled (ready to use) elements and documentation are available here: (https://ogcincubator.github.io/bblocks-sta/)
 
 For example observation like this:
