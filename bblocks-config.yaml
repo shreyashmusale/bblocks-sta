@@ -3,7 +3,7 @@ name: Sensor Things API Building Blocks
 
 # Short abstract for this collection (optional)
 abstract: |
-  This is set of data building blocks describing reusable components of the Sensor Things API 1.1.  Building blocks provide elements that may be reused, and mappings to the underlying OMS model via the SOSA ontology. 
+  This is set of data [building blocks](https://ogcincubator.github.io/bblocks-docs/) describing reusable components of the Sensor Things API 1.1.  Building blocks provide elements that may be reused, and mappings to the underlying OMS model via the SOSA ontology. 
 
 # Description for this collection (optional)
 description: |

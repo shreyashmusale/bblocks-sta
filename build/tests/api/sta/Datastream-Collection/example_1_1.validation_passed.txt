@@ -1,5 +1,5 @@
 Validation report for ogc.api.sta.Datastream-Collection - STA Datastream as ObsCollection
-Generated 2024-10-01T09:05:42.797262+00:00
+Generated 2024-10-02T11:39:12.593740+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
