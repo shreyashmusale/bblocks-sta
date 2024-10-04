@@ -1,7 +1,7 @@
 {
   "@context":
     {
-      "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+      "sosa": "http://www.w3.org/ns/sosa/",
       "Observations@iot.navigationLink":  {
         "@id": "sosa:hasMember",
         "@type": "@id"
