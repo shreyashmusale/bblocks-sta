@@ -67,15 +67,14 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 #### ttl
 ```ttl
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <https://www.w3.org/TR/vocab-ssn/#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 
 <http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> dcterms:description "The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property" ;
     dcterms:title "2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c" ;
     sosa:featureOfInterest <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing> ;
+    sosa:hasMember <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations> ;
     sosa:madeBySensor <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor> ;
-    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> ;
-    ns1:hasMember <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations> .
+    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> .
 
 
 ```
@@ -88,10 +87,10 @@ allOf:
 - $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml
 x-jsonld-extra-terms:
   Observations@iot.navigationLink:
-    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasMember
+    x-jsonld-id: http://www.w3.org/ns/sosa/hasMember
     x-jsonld-type: '@id'
 x-jsonld-prefixes:
-  sosa: https://www.w3.org/TR/vocab-ssn/#
+  sosa: http://www.w3.org/ns/sosa/
 
 ```
 
@@ -127,7 +126,7 @@ Links to the schema:
       "@type": "@id"
     },
     "Observations@iot.navigationLink": {
-      "@id": "https://www.w3.org/TR/vocab-ssn/#hasMember",
+      "@id": "sosa:hasMember",
       "@type": "@id"
     },
     "orel": "http://www.opengis.net/def/rel/",

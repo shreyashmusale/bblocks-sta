@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-02",
+  "dateOfLastChange": "2024-10-04",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -58,13 +58,13 @@
         },
         {
           "language": "ttl",
-          "code": "@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix ns1: <https://www.w3.org/TR/vocab-ssn/#> .\n@prefix sosa: <http://www.w3.org/ns/sosa/> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> dcterms:description \"The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property\" ;\n    dcterms:title \"2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c\" ;\n    sosa:featureOfInterest <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing> ;\n    sosa:madeBySensor <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor> ;\n    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> ;\n    ns1:hasMember <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations> .\n\n",
+          "code": "@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix sosa: <http://www.w3.org/ns/sosa/> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c> dcterms:description \"The datastream of jf2024 by sensor: 2e92962c0b6996add9517e4242ea9bdc for observed property: Jelly Fish Abundance Property\" ;\n    dcterms:title \"2e92962c0b6996add9517e4242ea9bdc:d2511e0ff7ac61981c6051a52b51f05c\" ;\n    sosa:featureOfInterest <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Thing> ;\n    sosa:hasMember <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Observations> ;\n    sosa:madeBySensor <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/Sensor> ;\n    sosa:observedProperty <https://sensor-things-api-sensor-things-api.apps.dcw1.paas.psnc.pl/jf2024/api/v1.0/Datastreams(2e92962c0b6996add9517e4242ea9bdcd2511e0ff7ac61981c6051a52b51f05c)/ObservedProperty> .\n\n",
           "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.ttl"
         }
       ]
     }
   ],
-  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\nallOf:\n- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml\nx-jsonld-extra-terms:\n  Observations@iot.navigationLink:\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasMember\n    x-jsonld-type: '@id'\nx-jsonld-prefixes:\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n",
+  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\nallOf:\n- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml\nx-jsonld-extra-terms:\n  Observations@iot.navigationLink:\n    x-jsonld-id: http://www.w3.org/ns/sosa/hasMember\n    x-jsonld-type: '@id'\nx-jsonld-prefixes:\n  sosa: http://www.w3.org/ns/sosa/\n",
   "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
   "gitPath": "_sources/Datastream-Collection"
 }

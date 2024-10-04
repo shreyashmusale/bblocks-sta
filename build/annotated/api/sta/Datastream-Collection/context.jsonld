@@ -21,7 +21,7 @@
       "@type": "@id"
     },
     "Observations@iot.navigationLink": {
-      "@id": "https://www.w3.org/TR/vocab-ssn/#hasMember",
+      "@id": "sosa:hasMember",
       "@type": "@id"
     },
     "orel": "http://www.opengis.net/def/rel/",

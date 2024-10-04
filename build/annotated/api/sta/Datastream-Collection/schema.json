@@ -7,11 +7,11 @@
   ],
   "x-jsonld-extra-terms": {
     "Observations@iot.navigationLink": {
-      "x-jsonld-id": "https://www.w3.org/TR/vocab-ssn/#hasMember",
+      "x-jsonld-id": "http://www.w3.org/ns/sosa/hasMember",
       "x-jsonld-type": "@id"
     }
   },
   "x-jsonld-prefixes": {
-    "sosa": "https://www.w3.org/TR/vocab-ssn/#"
+    "sosa": "http://www.w3.org/ns/sosa/"
   }
 }

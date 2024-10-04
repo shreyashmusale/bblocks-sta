@@ -2,12 +2,12 @@
   "name": "Sensor Things API Building Blocks",
   "abstract": "This is set of data [building blocks](https://ogcincubator.github.io/bblocks-docs/) describing reusable components of the Sensor Things API 1.1.  Building blocks provide elements that may be reused, and mappings to the underlying OMS model via the SOSA ontology. \n",
   "description": "Initial work on the bblocks extraction was done for the particular cases of the Iliad project.\nThis initial draft can be missing some elements of the STA and relax on some formal constraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD specifications.\nThe mapping of schema elements to formal definitions (JSON-LD context files) shall be treated as draft proposition.\n",
-  "modified": "2024-10-02T11:39:10.859571",
+  "modified": "2024-10-04T05:05:28.655997",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"378933f155dfc4ed2cda77d7bb9d0f5c6082b10f",
-      "shortCommitId": "\"378933",
-      "date": "2024-10-01T09:29:27+00:00\""
+      "commitId": "\"5d47077eb2f3255708fae570e734806772b94223",
+      "shortCommitId": "\"5d4707",
+      "date": "2024-10-03T10:26:09+00:00\""
     }
   },
   "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
@@ -29,7 +29,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -80,7 +80,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -131,7 +131,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -180,7 +180,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/sta-bblock",
       "sources": [
         {
@@ -231,7 +231,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -282,7 +282,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -336,7 +336,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-02",
+      "dateOfLastChange": "2024-10-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
