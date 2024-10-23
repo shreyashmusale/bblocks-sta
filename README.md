@@ -37,3 +37,9 @@ The `build/` directory contains the **_reusable assets_** for implementing this 
 
 Note that the these components will be consistently structured for a given type of building block, and the editable components may vary according to the source material used to derive the building block, and therefore cannot be directly referenced.
 
+## Acknowledgements
+
+The work has been co-funded by the European Union, Switzerland and the United Kingdom under the Horizon Europe:
+* [Iliad project](https://www.ogc.org/initiatives/iliad/) (GA 101037643)
+* [AD4GD project](https://www.ogc.org/initiatives/ad4gd/)(GA 101061001)
+
