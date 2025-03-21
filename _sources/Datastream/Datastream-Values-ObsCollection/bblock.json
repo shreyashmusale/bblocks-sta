@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API Datastream Values as ObservationCollection",
+  "name": "STA Datastream Values as ObservationCollection",
+  "highlighted": true,
   "abstract": "Profile of STA where the values of a Datastream are modelled as a sub-collection",
   "status": "under-development",
   "dateTimeAddition": "2024-02-09T00:00:00Z",
@@ -17,5 +18,9 @@
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": ["STA", "OMS", "SOSA"]
+  "tags": [
+    "STA",
+    "OMS",
+    "SOSA"
+  ]
 }

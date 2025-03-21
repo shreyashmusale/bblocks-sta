@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API Observation",
+  "name": "STA Observation",
+  "highlighted": true,
   "abstract": "Representation of the result of act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]",
   "status": "under-development",
   "dateTimeAddition": "2024-02-09T00:00:00Z",
@@ -17,5 +18,9 @@
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": ["STA", "OMS", "SOSA"]
+  "tags": [
+    "STA",
+    "OMS",
+    "SOSA"
+  ]
 }
