@@ -1,5 +1,5 @@
 
-# SensorThings API Observation (Schema)
+# STA Observation (Schema)
 
 `ogc.api.sta.Observation` *v0.1*
 

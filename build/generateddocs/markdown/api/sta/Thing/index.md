@@ -1,5 +1,5 @@
 
-# SensorThings API Thing (Schema)
+# STA Thing (Schema)
 
 `ogc.api.sta.Thing` *v0.1*
 

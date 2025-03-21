@@ -1,8 +1,8 @@
 {
-  "title": "Validation report for ogc.api.sta.Sensor - SensorThings API Sensor",
-  "bblockName": "SensorThings API Sensor",
+  "title": "Validation report for ogc.api.sta.Sensor - STA Sensor",
+  "bblockName": "STA Sensor",
   "bblockId": "ogc.api.sta.Sensor",
-  "generated": "2024-10-23T10:17:46.110038+00:00",
+  "generated": "2025-03-21T17:06:14.666404+00:00",
   "result": true,
   "items": [
     {
@@ -13,7 +13,7 @@
         "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Sensor/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [

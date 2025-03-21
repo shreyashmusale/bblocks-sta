@@ -3,14 +3,14 @@
 {
   "itemIdentifier": "ogc.api.sta.FeatureOfInterest",
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API FeatureOfInterest (FOI)",
+  "name": "STA FeatureOfInterest (FOI)",
   "abstract": "Representation of the result of the FeatureOfInterest. ",
   "status": "under-development",
   "dateTimeAddition": "2024-02-09T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-23",
+  "dateOfLastChange": "2025-03-21",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -32,6 +32,7 @@
   "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/schema.yaml",
   "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/",
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/FeatureOfInterest/",
   "description": "## What it represents\n\nAn Observation results in a value being assigned to a phenomenon. The phenomenon is a property of a feature, the latter being the FeatureOfInterest of the Observation [OGC and ISO 19156:2011]. In the context of the Internet of Things, many Observations\u2019 FeatureOfInterest can be the Location of the Thing. For example, the FeatureOfInterest of a wifi-connect thermostat can be the Location of the thermostat (i.e., the living room where the thermostat is located in). In the case of remote sensing, the FeatureOfInterest can be the geographical area or volume that is being sensed.\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n- type of feature property is not specified, while it shall be string or object\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature-of-interest](https://docs.ogc.org/is/18-088/18-088.html#featureofinterest)\n",

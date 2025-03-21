@@ -1,5 +1,5 @@
 
-# SensorThings API Sensor (Schema)
+# STA Sensor (Schema)
 
 `ogc.api.sta.Sensor` *v0.1*
 

@@ -1,5 +1,5 @@
-Validation report for ogc.api.sta.FeatureOfInterest - SensorThings API FeatureOfInterest (FOI)
-Generated 2024-10-23T10:17:46.100464+00:00
+Validation report for ogc.api.sta.FeatureOfInterest - STA FeatureOfInterest (FOI)
+Generated 2025-03-21T17:06:14.657863+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting

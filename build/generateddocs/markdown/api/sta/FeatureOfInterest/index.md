@@ -1,5 +1,5 @@
 
-# SensorThings API FeatureOfInterest (FOI) (Schema)
+# STA FeatureOfInterest (FOI) (Schema)
 
 `ogc.api.sta.FeatureOfInterest` *v0.1*
 

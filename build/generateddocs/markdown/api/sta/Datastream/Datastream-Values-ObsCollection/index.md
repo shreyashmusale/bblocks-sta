@@ -1,5 +1,5 @@
 
-# SensorThings API Datastream Values as ObservationCollection (Schema)
+# STA Datastream Values as ObservationCollection (Schema)
 
 `ogc.api.sta.Datastream.Datastream-Values-ObsCollection` *v0.1*
 

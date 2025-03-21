@@ -3,14 +3,15 @@
 {
   "itemIdentifier": "ogc.api.sta.Sensor",
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API Sensor",
+  "name": "STA Sensor",
+  "highlighted": true,
   "abstract": "A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.",
   "status": "under-development",
   "dateTimeAddition": "2024-02-10T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-23",
+  "dateOfLastChange": "2025-03-21",
   "link": "https://github.com/opengeospatial/sta-bblock",
   "sources": [
     {
@@ -34,6 +35,7 @@
   "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/schema.yaml",
   "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/",
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Sensor/",
   "description": "## Sensor\n\nA Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property.\nSTA sensor is based on the concept from [OGC and ISO 19156:2001, OGC 10-004r3 and ISO 19156:2011(E), OGC Abstract Specification: Geographic information \u2014 Observations and Measurements.](http://portal.opengeospatial.org/files/?artifact_id=41579)\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n- type of metadata property is not specified, while it shall be string or object\n\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor](https://docs.ogc.org/is/18-088/18-088.html#sensor)\n",

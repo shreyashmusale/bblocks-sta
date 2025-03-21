@@ -1,5 +1,5 @@
 
-# SensorThings API Datastream (Schema)
+# STA Datastream (Schema)
 
 `ogc.api.sta.Datastream` *v0.1*
 

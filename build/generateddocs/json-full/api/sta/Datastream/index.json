@@ -3,14 +3,15 @@
 {
   "itemIdentifier": "ogc.api.sta.Datastream",
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "SensorThings API Datastream",
+  "name": "STA Datastream",
+  "highlighted": true,
   "abstract": "Metadata about a coherent set of observations, linked to value stream. [OGC 10-004r3 / ISO 19156:2011]",
   "status": "under-development",
   "dateTimeAddition": "2024-02-09T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-23",
+  "dateOfLastChange": "2025-03-21",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -34,6 +35,7 @@
   "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/schema.yaml",
   "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/",
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream/",
   "description": "## What it represents\n\nA Datastream groups a collection of Observations measuring the same ObservedProperty and produced by the same Sensor. [https://docs.ogc.org/is/18-088/18-088.html#datastream].\n\nDatastreams may be raw values or observation objects inheriting common property values from the Datastream description.\n\n### Limitations\n\nObservations navigation link is to an array of observation properties. This requires an extra schema element to navigate the relationship between OMS/SOSA ObservationCollection and the set of observations as direct members. \n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastream](https://docs.ogc.org/is/18-088/18-088.html#datastream)\n",

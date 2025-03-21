@@ -1,8 +1,8 @@
 {
-  "title": "Validation report for ogc.api.sta.FeatureOfInterest - SensorThings API FeatureOfInterest (FOI)",
-  "bblockName": "SensorThings API FeatureOfInterest (FOI)",
+  "title": "Validation report for ogc.api.sta.FeatureOfInterest - STA FeatureOfInterest (FOI)",
+  "bblockName": "STA FeatureOfInterest (FOI)",
   "bblockId": "ogc.api.sta.FeatureOfInterest",
-  "generated": "2024-10-23T10:17:46.100527+00:00",
+  "generated": "2025-03-21T17:06:14.657915+00:00",
   "result": true,
   "items": [
     {
@@ -13,7 +13,7 @@
         "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [

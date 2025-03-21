@@ -4,13 +4,14 @@
   "itemIdentifier": "ogc.api.sta.Datastream-Collection",
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
   "name": "STA Datastream as ObsCollection",
+  "highlighted": true,
   "abstract": "Metadata about a coherent set of observations - linked to a stream of observations. [OGC 10-004r3 / ISO 19156:2011]",
   "status": "under-development",
   "dateTimeAddition": "2024-02-09T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-23",
+  "dateOfLastChange": "2025-03-21",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -37,6 +38,7 @@
   "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/schema.yaml",
   "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/",
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream-Collection/",
   "description": "## What it represents\n\nForces the datastream to be an upper-level ObservationCollection setting common values, and the values stream to be regarded as a link to an ObservationCollection\n\n### Limitations\n\nTBD\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastream](https://docs.ogc.org/is/18-088/18-088.html#datastream)\n",

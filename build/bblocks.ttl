@@ -20,7 +20,7 @@
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream-Collection/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#datastream> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -37,17 +37,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.Datastream.Datastream-Values-ObsCollection> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API Datastream Values as ObservationCollection" ;
+    rdfs:label "STA Datastream Values as ObservationCollection" ;
     dct:abstract "Profile of STA where the values of a Datastream are modelled as a sub-collection" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/Datastream-Values-ObsCollection/index.json" ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/Datastream-Values-ObsCollection/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream.Datastream-Values-ObsCollection" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/Datastream-Values-ObsCollection/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream.Datastream-Values-ObsCollection" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#datastream> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -64,17 +64,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.FeatureOfInterest> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API FeatureOfInterest (FOI)" ;
+    rdfs:label "STA FeatureOfInterest (FOI)" ;
     dct:abstract "Representation of the result of the FeatureOfInterest. " ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/FeatureOfInterest/index.json" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.FeatureOfInterest" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/FeatureOfInterest/index.md" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/FeatureOfInterest/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.FeatureOfInterest" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "templates" ;
@@ -88,17 +88,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.Sensor> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API Sensor" ;
+    rdfs:label "STA Sensor" ;
     dct:abstract "A Sensor is an instrument that observes a property or phenomenon with the goal of producing an estimate of the value of the property." ;
     dct:created "2024-02-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md" ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Sensor/index.json" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Sensor" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Sensor/index.json" ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#sensor> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -114,17 +114,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.Thing> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API Thing" ;
+    rdfs:label "STA Thing" ;
     dct:abstract "A thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks. [ITU-T Y.2060]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Thing" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Thing/index.md" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Thing/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#thing> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -148,17 +148,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.Datastream> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API Datastream" ;
+    rdfs:label "STA Datastream" ;
     dct:abstract "Metadata about a coherent set of observations, linked to value stream. [OGC 10-004r3 / ISO 19156:2011]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/index.json" ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/index.json" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#datastream> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -174,17 +174,17 @@
 <https://ogcincubator.github.io/ogc.api.sta.Observation> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "SensorThings API Observation" ;
+    rdfs:label "STA Observation" ;
     dct:abstract "Representation of the result of act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011]" ;
     dct:created "2024-02-09T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Observation/index.md" ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Observation/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Observation" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Observation" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Observation/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-23"^^xsd:date ;
+    dct:modified "2025-03-21"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-088/18-088.html#observation> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-sta/> ;
     dcat:keyword "OMS",
@@ -213,18 +213,18 @@ The mapping of schema elements to formal definitions (JSON-LD context files) sha
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-10-23T10:17:46.240189"^^xsd:dateTime ;
-    prov:startedAtTime "2024-10-23T10:17:46.161750"^^xsd:dateTime ;
+    prov:endedAtTime "2025-03-21T17:06:14.814125"^^xsd:dateTime ;
+    prov:startedAtTime "2025-03-21T17:06:14.738785"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:29bfb5211dfe9e45b83513b71e459698fc638b51" ;
-            rdfs:seeAlso <https://ogcincubator.github.io/bblocks-sta/build/register.json> ] ;
+            dct:hasVersion "git:b651781fa5d86b9edf8ee96b39c01a602836f186" ;
+            rdfs:seeAlso <https://ogcincubator.github.io/bblocks-sta/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.54" ;
+            dct:hasVersion "0.3.57" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 
