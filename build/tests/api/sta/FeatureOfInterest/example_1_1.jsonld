@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/FeaturesOfInterest(1)",
   "Observations@iot.navigationLink": "FeaturesOfInterest(1)/Observations",

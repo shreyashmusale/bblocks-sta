@@ -47,7 +47,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
   "unitOfMeasurement": {
     "name": "Unitless",
     "definition": "http://qudt.org/schema/qudt/UNITLESS"
@@ -84,7 +84,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 ```yaml
 $schema: http://json-schema.org/draft-04/schema#
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml
+- $ref: https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml
 x-jsonld-extra-terms:
   Observations@iot.navigationLink:
     x-jsonld-id: http://www.w3.org/ns/sosa/hasMember
@@ -96,8 +96,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.yaml)
+* YAML version: [schema.yaml](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.json)
+* JSON version: [schema.json](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.yaml)
 
 
 # JSON-LD Context
@@ -140,7 +140,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld)
+[context.jsonld](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld)
 
 ## Sources
 
@@ -150,6 +150,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-sta](https://github.com/ogcincubator/bblocks-sta)
+* URL: [https://github.com/shreyashmusale/bblocks-sta](https://github.com/shreyashmusale/bblocks-sta)
 * Path: `_sources/Datastream-Collection`
 

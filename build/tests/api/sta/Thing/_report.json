@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.sta.Thing - STA Thing",
   "bblockName": "STA Thing",
   "bblockId": "ogc.api.sta.Thing",
-  "generated": "2025-03-21T17:06:14.674412+00:00",
+  "generated": "2025-07-24T13:31:50.804715+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/api/sta/Thing/example_1_1.json",
-        "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Thing/example_1_1.json",
+        "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Thing/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"

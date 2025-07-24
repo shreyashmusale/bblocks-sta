@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.sta.Datastream-Collection - STA Datastream as ObsCollection",
   "bblockName": "STA Datastream as ObsCollection",
   "bblockId": "ogc.api.sta.Datastream-Collection",
-  "generated": "2025-03-21T17:06:14.694682+00:00",
+  "generated": "2025-07-24T13:31:50.844980+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/api/sta/Datastream-Collection/example_1_1.json",
-        "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.json",
+        "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Datastream-Collection/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"

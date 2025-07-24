@@ -24,17 +24,17 @@
     "templates"
   ],
   "shaclRules": {},
-  "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
+  "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json"
+    "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml",
+    "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/schema.yaml",
-  "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/context.jsonld",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/",
+  "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/schema.yaml",
+  "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/context.jsonld",
+  "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/",
   "rdfData": [],
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/FeatureOfInterest/",
+  "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/FeatureOfInterest/",
   "description": "## What it represents\n\nAn Observation results in a value being assigned to a phenomenon. The phenomenon is a property of a feature, the latter being the FeatureOfInterest of the Observation [OGC and ISO 19156:2011]. In the context of the Internet of Things, many Observations\u2019 FeatureOfInterest can be the Location of the Thing. For example, the FeatureOfInterest of a wifi-connect thermostat can be the Location of the thermostat (i.e., the living room where the thermostat is located in). In the case of remote sensing, the FeatureOfInterest can be the geographical area or volume that is being sensed.\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n- type of feature property is not specified, while it shall be string or object\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature-of-interest](https://docs.ogc.org/is/18-088/18-088.html#featureofinterest)\n",
   "examples": [
     {
@@ -45,22 +45,22 @@
           "language": "json",
           "ref": "examples/FeatureOfInterest.json",
           "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/FeaturesOfInterest(1)\",\n  \"Observations@iot.navigationLink\": \"FeaturesOfInterest(1)/Observations\",\n\n  \"name\": \"Weather Station YYC.\",\n  \"description\": \"This is a weather station located at the Calgary Airport.\",\n  \"encodingType\": \"application/geo+json\",\n  \"feature\": {\n    \"type\": \"Feature\",\n    \"geometry\":{\n      \"type\": \"Point\",\n      \"coordinates\": [-114.06,51.05]\n    }\n  }\n}\n",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/FeaturesOfInterest(1)\",\n  \"Observations@iot.navigationLink\": \"FeaturesOfInterest(1)/Observations\",\n  \"name\": \"Weather Station YYC.\",\n  \"description\": \"This is a weather station located at the Calgary Airport.\",\n  \"encodingType\": \"application/geo+json\",\n  \"feature\": {\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"Point\",\n      \"coordinates\": [\n        -114.06,\n        51.05\n      ]\n    }\n  }\n}",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.jsonld"
+          "code": "{\n  \"@context\": \"https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/FeaturesOfInterest(1)\",\n  \"Observations@iot.navigationLink\": \"FeaturesOfInterest(1)/Observations\",\n  \"name\": \"Weather Station YYC.\",\n  \"description\": \"This is a weather station located at the Calgary Airport.\",\n  \"encodingType\": \"application/geo+json\",\n  \"feature\": {\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"Point\",\n      \"coordinates\": [\n        -114.06,\n        51.05\n      ]\n    }\n  }\n}",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix dcat1: <https://w3c.github.io/dxwg/dcat/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix geojson: <https://purl.org/geojson/vocab#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix sta: <https://schemas.opengis.org/sta/def/core#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/1> dcterms:description \"This is a weather station located at the Calgary Airport.\" ;\n    dcterms:title \"Weather Station YYC.\" ;\n    geojson:Feature [ a <http://w3id.org/ogcincubator/bblocks-sta/Feature> ;\n            geojson:geometry [ a geojson:Point ;\n                    geojson:coordinates ( -1.1406e+02 5.105e+01 ) ] ] ;\n    sta:Observation \"FeaturesOfInterest(1)/Observations\" ;\n    dcat1:mediaType \"application/geo+json\" .\n\n",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.ttl"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/FeatureOfInterest/example_1_1.ttl"
         }
       ]
     }
   ],
   "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\ntitle: FeatureOfInterest object\ndescription: Schema for Sensor things API 1.1 FeatureOfInterest\ntype: object\nrequired:\n- '@iot.id'\n- '@iot.selfLink'\n- name\n- description\n- encodingType\n- feature\n- Observations@iot.navigationLink\nproperties:\n  '@iot.id':\n    description: The Id of the Feature\n    x-jsonld-id: '@id'\n  '@iot.selfLink':\n    type: string\n    description: The direct link to the entity\n    x-jsonld-id: orel:iana/1.0/self\n  name:\n    type: string\n    description: A property provides a label for FeatureOfInterest entity, commonly\n      a descriptive name.\n    x-jsonld-id: http://purl.org/dc/terms/title\n  description:\n    type: string\n    description: The description about the FeatureOfInterest.\n    x-jsonld-id: http://purl.org/dc/terms/description\n  encodingType:\n    type: string\n    description: The encoding type of the feature property. Its value is one of the\n      ValueCode enumeration (see https://docs.ogc.org/is/18-088/18-088.html#tab-encodingtype-codes\n      for the available ValueCode)..\n    const: application/geo+json\n    x-jsonld-id: https://w3c.github.io/dxwg/dcat/mediaType\n  feature:\n    description: The detailed description of the feature. The data type is defined\n      by encodingType.\n    x-jsonld-id: https://purl.org/geojson/vocab#Feature\n    x-jsonld-extra-terms:\n      type: '@type'\n      coordinates:\n        x-jsonld-container: '@list'\n        x-jsonld-id: https://purl.org/geojson/vocab#coordinates\n  properties:\n    type: object\n    description: optional properties for the feature.\n  Observations@iot.navigationLink:\n    type: string\n    description: Reference link to the Observations.\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#Observation\nx-jsonld-extra-terms:\n  LineString: https://purl.org/geojson/vocab#LineString\n  MultiLineString: https://purl.org/geojson/vocab#MultiLineString\n  MultiPoint: https://purl.org/geojson/vocab#MultiPoint\n  MultiPolygon: https://purl.org/geojson/vocab#MultiPolygon\n  Point: https://purl.org/geojson/vocab#Point\n  Polygon: https://purl.org/geojson/vocab#Polygon\n  geometry: https://purl.org/geojson/vocab#geometry\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\n  dcat: https://w3c.github.io/dxwg/dcat/\n  geojson: https://purl.org/geojson/vocab#\n  sta: https://schemas.opengis.org/sta/def/core#\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n  skos: http://www.w3.org/2004/02/skos/core#\n  iana: https://www.iana.org/assignments/media-types/\n  rel: http://www.iana.org/assignments/relation/\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
+  "gitRepository": "https://github.com/shreyashmusale/bblocks-sta",
   "gitPath": "_sources/FeatureOfInterest"
 }

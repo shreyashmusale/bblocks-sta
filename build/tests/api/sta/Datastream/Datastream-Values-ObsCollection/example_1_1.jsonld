@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
   "@iot.count": 3,
   "value": [
     {

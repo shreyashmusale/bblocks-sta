@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.json"
+      "$ref": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.json"
     }
   ],
   "x-jsonld-extra-terms": {

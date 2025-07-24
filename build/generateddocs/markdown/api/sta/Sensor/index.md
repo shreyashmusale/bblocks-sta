@@ -44,7 +44,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor]
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/Sensors(1)",
   "Datastreams@iot.navigationLink": "Sensors(1)/Datastreams",
@@ -121,8 +121,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.yaml)
+* YAML version: [schema.yaml](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.json)
+* JSON version: [schema.json](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.yaml)
 
 
 # JSON-LD Context
@@ -150,7 +150,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld)
+[context.jsonld](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld)
 
 ## Sources
 
@@ -160,6 +160,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-sta](https://github.com/ogcincubator/bblocks-sta)
+* URL: [https://github.com/shreyashmusale/bblocks-sta](https://github.com/shreyashmusale/bblocks-sta)
 * Path: `_sources/Sensor`
 

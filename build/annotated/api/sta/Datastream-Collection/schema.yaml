@@ -1,6 +1,6 @@
 $schema: http://json-schema.org/draft-04/schema#
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml
+- $ref: https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml
 x-jsonld-extra-terms:
   Observations@iot.navigationLink:
     x-jsonld-id: http://www.w3.org/ns/sosa/hasMember

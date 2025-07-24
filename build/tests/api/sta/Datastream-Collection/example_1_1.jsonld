@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
   "unitOfMeasurement": {
     "name": "Unitless",
     "definition": "http://qudt.org/schema/qudt/UNITLESS"

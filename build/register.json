@@ -2,19 +2,19 @@
   "name": "Sensor Things API Building Blocks",
   "abstract": "This is set of data [building blocks](https://ogcincubator.github.io/bblocks-docs/) describing reusable components of the Sensor Things API 1.1.  Building blocks provide elements that may be reused, and mappings to the underlying OMS model via the SOSA ontology. \n",
   "description": "Initial work on the bblocks extraction was done for the particular cases of the Iliad project.\nThis initial draft can be missing some elements of the STA and relax on some formal constraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD specifications.\nThe mapping of schema elements to formal definitions (JSON-LD context files) shall be treated as draft proposition.\n",
-  "modified": "2025-03-21T17:06:12.606671",
+  "modified": "2025-07-24T13:31:48.790404",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"e8df6b22cb38da4f600f3a0292c58fdef7734f97",
-      "shortCommitId": "\"e8df6b",
-      "date": "2025-03-17T08:34:25+00:00\""
+      "commitId": "\"90449d8d782b37e989efa59d628701428c5ec209",
+      "shortCommitId": "\"90449d",
+      "date": "2025-07-22T23:11:05+00:00\""
     }
   },
-  "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
-  "gitHubRepository": "https://github.com/ogcincubator/bblocks-sta/blob/master/",
-  "baseURL": "https://ogcincubator.github.io/bblocks-sta/",
-  "viewerURL": "https://ogcincubator.github.io/bblocks-sta/",
-  "validationReport": "https://ogcincubator.github.io/bblocks-sta/build/tests/report.html",
+  "gitRepository": "https://github.com/shreyashmusale/bblocks-sta",
+  "gitHubRepository": "https://github.com/shreyashmusale/bblocks-sta/blob/master/",
+  "baseURL": "https://shreyashmusale.github.io/bblocks-sta/",
+  "viewerURL": "https://shreyashmusale.github.io/bblocks-sta/",
+  "validationReport": "https://shreyashmusale.github.io/bblocks-sta/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -46,29 +46,29 @@
         "SOSA"
       ],
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Observation/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Observation/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Observation/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Observation/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Observation/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Observation/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Observation"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Observation"
         }
       }
     },
@@ -99,29 +99,29 @@
         "SOSA"
       ],
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Datastream/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream"
         }
       }
     },
@@ -149,29 +149,29 @@
         "templates"
       ],
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/FeatureOfInterest/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/FeatureOfInterest/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/FeatureOfInterest/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/FeatureOfInterest/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/FeatureOfInterest/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/FeatureOfInterest/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/FeatureOfInterest/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/FeatureOfInterest/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.FeatureOfInterest"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.FeatureOfInterest"
         }
       }
     },
@@ -202,29 +202,29 @@
         "SOSA"
       ],
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Sensor/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Sensor/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Sensor/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Sensor/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Sensor/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Sensor/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Sensor/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Sensor/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Sensor/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Sensor/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Sensor"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Sensor"
         }
       }
     },
@@ -255,29 +255,29 @@
         "SOSA"
       ],
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Thing/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Thing/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Thing/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Thing/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Thing/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Thing/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Thing/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Thing/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Thing/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Thing/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Thing"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Thing"
         }
       }
     },
@@ -311,29 +311,29 @@
       "dependsOn": [
         "ogc.api.sta.Observation"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream/Datastream-Values-ObsCollection/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream/Datastream-Values-ObsCollection/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Datastream/Datastream-Values-ObsCollection/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/Datastream-Values-ObsCollection/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/Datastream-Values-ObsCollection/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream/Datastream-Values-ObsCollection/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream/Datastream-Values-ObsCollection/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream.Datastream-Values-ObsCollection"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream.Datastream-Values-ObsCollection"
         }
       }
     },
@@ -367,31 +367,32 @@
       "dependsOn": [
         "ogc.api.sta.Datastream"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
+      "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.json"
+        "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.yaml",
+        "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream-Collection/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/context.jsonld",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Datastream-Collection/",
+      "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream-Collection/schema.yaml",
+      "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream-Collection/context.jsonld",
+      "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Datastream-Collection/",
       "rdfData": [],
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Datastream-Collection/",
+      "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Datastream-Collection/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream-Collection/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream-Collection/index.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/json-full/api/sta/Datastream-Collection/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/generateddocs/markdown/api/sta/Datastream-Collection/index.md"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream-Collection"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/bblock/ogc.api.sta.Datastream-Collection"
         }
       }
     }
-  ]
+  ],
+  "remoteCacheDir": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/_cache"
 }

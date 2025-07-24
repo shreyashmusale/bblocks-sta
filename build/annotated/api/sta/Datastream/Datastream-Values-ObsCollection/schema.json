@@ -10,7 +10,7 @@
       "items": {
         "allOf": [
           {
-            "$ref": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
+            "$ref": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
           }
         ]
       },

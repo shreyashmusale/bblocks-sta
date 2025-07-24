@@ -27,17 +27,17 @@
     "SOSA"
   ],
   "shaclRules": {},
-  "ldContext": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld",
+  "ldContext": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld",
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
+    "application/yaml": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml",
+    "application/json": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/schema.yaml",
-  "sourceLdContext": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/context.jsonld",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-sta/_sources/Observation/",
+  "sourceSchema": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/schema.yaml",
+  "sourceLdContext": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/context.jsonld",
+  "sourceFiles": "https://shreyashmusale.github.io/bblocks-sta/_sources/Observation/",
   "rdfData": [],
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-sta/blob/master/build/tests/api/sta/Observation/",
+  "testOutputs": "https://github.com/shreyashmusale/bblocks-sta/blob/master/build/tests/api/sta/Observation/",
   "description": "## What is represents\n\nObservation is an act of measuring or otherwise determining the value of a property. [OGC 10-004r3 / ISO 19156:2011].\n\n### Limitations\nFor compliance with SwaggerHub where the schema can be referred:\n- type of id is not specified, while it shall be string or number\n\n\n## References\n\nRequirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observation](https://docs.ogc.org/is/18-088/18-088.html#observation)\n",
   "examples": [
     {
@@ -48,22 +48,22 @@
           "language": "json",
           "ref": "examples/Observation.json",
           "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Observations(1)\",\n  \"FeatureOfInterest@iot.navigationLink\": \"Observations(1)/FeatureOfInterest\",\n  \"Datastream@iot.navigationLink\":\"Observations(1)/Datastream\",\n  \"phenomenonTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"resultTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"result\": 70.4\n}\n",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.json"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Observations(1)\",\n  \"FeatureOfInterest@iot.navigationLink\": \"Observations(1)/FeatureOfInterest\",\n  \"Datastream@iot.navigationLink\": \"Observations(1)/Datastream\",\n  \"phenomenonTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"resultTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"result\": 70.4\n}",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.jsonld"
+          "code": "{\n  \"@context\": \"https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Observations(1)\",\n  \"FeatureOfInterest@iot.navigationLink\": \"Observations(1)/FeatureOfInterest\",\n  \"Datastream@iot.navigationLink\": \"Observations(1)/Datastream\",\n  \"phenomenonTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"resultTime\": \"2014-12-31T11:59:59.00+08:00\",\n  \"result\": 70.4\n}",
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix sosa1: <https://www.w3.org/TR/vocab-ssn/#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://w3id.org/ogcincubator/bblocks-sta/1> sosa1:hasFeatureOfInterest \"Observations(1)/FeatureOfInterest\" ;\n    sosa1:hasSimpleResult 7.04e+01 ;\n    sosa1:isMemberOf \"Observations(1)/Datastream\" ;\n    sosa1:phenomenonTime \"2014-12-31T11:59:59.00+08:00\" ;\n    sosa1:resultTime \"2014-12-31T11:59:59.00+08:00\" .\n\n",
-          "url": "https://ogcincubator.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.ttl"
+          "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Observation/example_1_1.ttl"
         }
       ]
     }
   ],
   "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\ntitle: Observation object\ndescription: Schema for Sensor things API 1.3 Observation\ntype: object\nproperties:\n  '@iot.id':\n    type:\n    - string\n    - number\n    description: The Id of the observation\n    x-jsonld-id: '@id'\n  '@iot.selfLink':\n    type: string\n    description: The direct link to the entity\n    x-jsonld-id: http://www.opengis.net/def/rel/iana/1.0/self\n  parameters:\n    type: object\n  phenomenonTime:\n    type: string\n    description: The time when the observation happened. or Time Interval string (e.g.,\n      2010-12-23T10:20:00.00-07:00 or 2010-12-23T10:20:00.00-07:00/2010-12-23T12:20:00.00-07:00)\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#phenomenonTime\n  result:\n    description: The estimated value of the observed property. Type depends on the\n      observationType defined in the associated Datastream\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasSimpleResult\n  resultQuality:\n    type: string\n    description: A description of the quality of the result. Type DQ_Element.\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultQuality\n  resultTime:\n    type: string\n    description: The time the result was generated. TM_Instant (ISO 8601 Time string)\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#resultTime\n  validTime:\n    type: string\n    description: The time period during which the result can be used. TM_Period (ISO\n      8601 Time Interval string)\n    x-jsonld-id: https://schemas.opengis.org/sta/def/core#validTime\n  Datastream@iot.navigationLink:\n    type: string\n    description: Reference link to the DataStream Definition.\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#isMemberOf\n  FeatureOfInterest@iot.navigationLink:\n    type: string\n    description: Reference link to the FeatureOfInterest.\n    x-jsonld-id: https://www.w3.org/TR/vocab-ssn/#hasFeatureOfInterest\nx-jsonld-prefixes:\n  orel: http://www.opengis.net/def/rel/\n  sosa: https://www.w3.org/TR/vocab-ssn/#\n  sta: https://schemas.opengis.org/sta/def/core#\n  rel: http://www.iana.org/assignments/relation/\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-sta",
+  "gitRepository": "https://github.com/shreyashmusale/bblocks-sta",
   "gitPath": "_sources/Observation"
 }

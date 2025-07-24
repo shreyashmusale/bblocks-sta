@@ -49,7 +49,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld",
   "@iot.id": 1,
   "@iot.selfLink": "http://example.org/v1.1/FeaturesOfInterest(1)",
   "Observations@iot.navigationLink": "FeaturesOfInterest(1)/Observations",
@@ -166,8 +166,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml)
+* YAML version: [schema.yaml](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.json)
+* JSON version: [schema.json](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/schema.yaml)
 
 
 # JSON-LD Context
@@ -212,7 +212,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld)
+[context.jsonld](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/FeatureOfInterest/context.jsonld)
 
 ## Sources
 
@@ -222,6 +222,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-sta](https://github.com/ogcincubator/bblocks-sta)
+* URL: [https://github.com/shreyashmusale/bblocks-sta](https://github.com/shreyashmusale/bblocks-sta)
 * Path: `_sources/FeatureOfInterest`
 

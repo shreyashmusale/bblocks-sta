@@ -105,7 +105,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel#datastr
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
+  "@context": "https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld",
   "@iot.count": 3,
   "value": [
     {
@@ -218,7 +218,7 @@ properties:
     type: array
     items:
       allOf:
-      - $ref: https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml
+      - $ref: https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Observation/schema.yaml
     x-jsonld-id: '@graph'
 x-jsonld-extra-terms:
   Observations@iot.navigationLink:
@@ -231,8 +231,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.yaml)
+* YAML version: [schema.yaml](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.json)
+* JSON version: [schema.json](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/schema.yaml)
 
 
 # JSON-LD Context
@@ -265,7 +265,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld)
+[context.jsonld](https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Datastream/Datastream-Values-ObsCollection/context.jsonld)
 
 ## Sources
 
@@ -275,6 +275,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-sta](https://github.com/ogcincubator/bblocks-sta)
+* URL: [https://github.com/shreyashmusale/bblocks-sta](https://github.com/shreyashmusale/bblocks-sta)
 * Path: `_sources/Datastream/Datastream-Values-ObsCollection`
 
