@@ -1,13 +1,39 @@
 {
   "@context": {
+    "@iot.id": "@id",
+    "@iot.selfLink": "orel:iana/1.0/self",
+	"name": "dct:title",
+    "description": "dct:description",
+	"property": {
+		"@id": "sdo:additionalProperty",
+		"@type": "@id"
+		},
+	"category": {
+      "@id": "sdo:category",
+      "@type": "@id"
+    },
+	"termCode": "sdo:termCode",
+    "inDefinedTermSet": {
+      "@id": "sdo:inDefinedTermSet",
+      "@type": "@id"
+    },
+    "identifier": "sdo:identifier",
+	"provider": {
+      "@id": "sdo:provider",
+      "@type": "@id"
+    },
+	"Organization": "sdo:Organization",
+    "PropertyValue": "sdo:PropertyValue",
+    "value": "sdo:value",
+    "propertyID": "sdo:propertyID",
+    "Locations@iot.navigationLink": "sta:Locations",
+    "Datastreams@iot.navigationLink": "sta:Datastreams",
+    "HistoricalLocations@iot.navigationLink": "sta:HistoricalLocations",
+    "orel": "http://www.opengis.net/def/rel/",
     "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
     "rel": "http://www.iana.org/assignments/relation/",
-    "orel": "http://www.opengis.net/def/rel/",
-    "@iot.id": "@id",
-    "@iot.selfLink": "orel:iana/1.0/self",
-    "Locations@iot.navigationLink": "sta:Locations",
-    "Datastreams@iot.navigationLink": "sta:Datastreams",
-    "HistoricalLocations@iot.navigationLink": "sta:HistoricalLocations"
+	  "sdo": "http://schema.org/",
+    "@version": 1.1
   }
 }
