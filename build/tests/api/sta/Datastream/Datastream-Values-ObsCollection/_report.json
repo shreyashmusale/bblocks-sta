@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.sta.Datastream.Datastream-Values-ObsCollection - STA Datastream Values as ObservationCollection",
   "bblockName": "STA Datastream Values as ObservationCollection",
   "bblockId": "ogc.api.sta.Datastream.Datastream-Values-ObsCollection",
-  "generated": "2025-07-29T15:49:40.197581+00:00",
+  "generated": "2025-07-29T15:59:27.130728+00:00",
   "result": true,
   "items": [
     {

@@ -19,7 +19,7 @@
     },
     "identifier": "sdo:identifier",
     "provider": {
-      "@id": "sdo:provider",
+      "@id": "dcterms:publisher",
       "@type": "@id"
     },
     "Organization": "sdo:Organization",

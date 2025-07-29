@@ -53,7 +53,7 @@ x-jsonld-extra-terms:
     x-jsonld-type: '@id'
   identifier: sdo:identifier
   provider:
-    x-jsonld-id: sdo:provider
+    x-jsonld-id: dcterms:publisher
     x-jsonld-type: '@id'
   Organization: sdo:Organization
   PropertyValue: sdo:PropertyValue

@@ -112,7 +112,7 @@
   "name": "Building Blocks - Sensor Things API Building Blocks",
   "abstract": "This is set of data [building blocks](https://ogcincubator.github.io/bblocks-docs/) describing reusable components of the Sensor Things API 1.1.  Building blocks provide elements that may be reused, and mappings to the underlying OMS model via the SOSA ontology. \n",
   "description": "Initial work on the bblocks extraction was done for the particular cases of the Iliad project.\nThis initial draft can be missing some elements of the STA and relax on some formal constraints for the better support of the JSON Schema, OpenAPI 3.0.1 and JSON-LD specifications.\nThe mapping of schema elements to formal definitions (JSON-LD context files) shall be treated as draft proposition.\n",
-  "modified": "2025-07-29T15:49:38.163062",
+  "modified": "2025-07-29T15:59:25.061710",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"90449d8d782b37e989efa59d628701428c5ec209",

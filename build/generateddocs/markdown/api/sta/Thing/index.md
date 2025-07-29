@@ -134,7 +134,7 @@ x-jsonld-extra-terms:
     x-jsonld-type: '@id'
   identifier: sdo:identifier
   provider:
-    x-jsonld-id: sdo:provider
+    x-jsonld-id: dcterms:publisher
     x-jsonld-type: '@id'
   Organization: sdo:Organization
   PropertyValue: sdo:PropertyValue
@@ -181,7 +181,7 @@ Links to the schema:
     },
     "identifier": "sdo:identifier",
     "provider": {
-      "@id": "sdo:provider",
+      "@id": "dcterms:publisher",
       "@type": "@id"
     },
     "Organization": "sdo:Organization",
