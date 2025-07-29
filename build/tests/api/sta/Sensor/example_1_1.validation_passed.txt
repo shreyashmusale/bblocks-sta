@@ -1,5 +1,5 @@
 Validation report for ogc.api.sta.Sensor - STA Sensor
-Generated 2025-07-29T12:18:47.030989+00:00
+Generated 2025-07-29T12:44:02.574580+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
