@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-  "name": "STA Datastream",
+  
   "highlighted": true,
   "abstract": "Metadata about a coherent set of observations, linked to value stream. [OGC 10-004r3 / ISO 19156:2011]",
   "status": "under-development",
