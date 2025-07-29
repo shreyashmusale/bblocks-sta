@@ -42,29 +42,28 @@ x-jsonld-extra-terms:
   name: dct:title
   description: dct:description
   property:
-    x-jsonld-id: http://schema.org/additionalProperty
+    x-jsonld-id: sdo:additionalProperty
     x-jsonld-type: '@id'
   category:
-    x-jsonld-id: http://schema.org/category
+    x-jsonld-id: sdo:category
     x-jsonld-type: '@id'
-  termCode: http://schema.org/termCode
+  termCode: sdo:termCode
   inDefinedTermSet:
-    x-jsonld-id: http://schema.org/inDefinedTermSet
+    x-jsonld-id: sdo:inDefinedTermSet
     x-jsonld-type: '@id'
-  identifier: http://schema.org/identifier
+  identifier: sdo:identifier
   provider:
-    x-jsonld-id: http://schema.org/provider
+    x-jsonld-id: sdo:provider
     x-jsonld-type: '@id'
-  Organization: http://schema.org/Organization
-  PropertyValue: http://schema.org/PropertyValue
-  value: http://schema.org/value
-  propertyID: http://schema.org/propertyID
+  Organization: sdo:Organization
+  PropertyValue: sdo:PropertyValue
+  value: sdo:value
+  propertyID: sdo:propertyID
   Locations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Locations
   Datastreams@iot.navigationLink: https://schemas.opengis.org/sta/def/core#Datastreams
   HistoricalLocations@iot.navigationLink: https://schemas.opengis.org/sta/def/core#HistoricalLocations
 x-jsonld-prefixes:
   orel: http://www.opengis.net/def/rel/
-  sdo: http://schema.org/
   sta: https://schemas.opengis.org/sta/def/core#
   sosa: https://www.w3.org/TR/vocab-ssn/#
   rel: http://www.iana.org/assignments/relation/

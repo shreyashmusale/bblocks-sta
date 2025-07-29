@@ -30,7 +30,6 @@
     "Datastreams@iot.navigationLink": "sta:Datastreams",
     "HistoricalLocations@iot.navigationLink": "sta:HistoricalLocations",
     "orel": "http://www.opengis.net/def/rel/",
-    "sdo": "http://schema.org/",
     "sta": "https://schemas.opengis.org/sta/def/core#",
     "sosa": "https://www.w3.org/TR/vocab-ssn/#",
     "rel": "http://www.iana.org/assignments/relation/",

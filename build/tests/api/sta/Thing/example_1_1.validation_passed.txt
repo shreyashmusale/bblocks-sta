@@ -1,5 +1,5 @@
 Validation report for ogc.api.sta.Thing - STA Thing
-Generated 2025-07-29T15:45:02.553607+00:00
+Generated 2025-07-29T15:49:40.185593+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
