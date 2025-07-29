@@ -8,6 +8,6 @@
   "description": "This thing is an oven.",
   "properties": {
     "owner": "Noah Liang",
-    "color": "Black"
+    "color": "white"
   }
 }

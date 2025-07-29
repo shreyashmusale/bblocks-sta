@@ -38,7 +38,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](
   "description": "This thing is an oven.",
   "properties": {
     "owner": "Noah Liang",
-    "color": "Black"
+    "color": "white"
   }
 }
 
@@ -57,7 +57,7 @@ Requirements: [http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing](
   "description": "This thing is an oven.",
   "properties": {
     "owner": "Noah Liang",
-    "color": "Black"
+    "color": "white"
   }
 }
 ```

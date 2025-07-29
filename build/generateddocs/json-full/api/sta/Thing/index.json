@@ -11,7 +11,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2025-03-21",
+  "dateOfLastChange": "2025-07-29",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -47,12 +47,12 @@
         {
           "language": "json",
           "ref": "examples/Thing.json",
-          "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Things(1)\",\n  \"Locations@iot.navigationLink\": \"Things(1)/Locations\",\n  \"Datastreams@iot.navigationLink\": \"Things(1)/Datastreams\",\n  \"HistoricalLocations@iot.navigationLink\": \"Things(1)/HistoricalLocations\",\n\n  \"name\": \"Oven\",\n  \"description\": \"This thing is an oven.\",\n  \"properties\": {\n    \"owner\": \"Noah Liang\",\n    \"color\": \"Black\"\n  }\n}\n",
+          "code": "{\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Things(1)\",\n  \"Locations@iot.navigationLink\": \"Things(1)/Locations\",\n  \"Datastreams@iot.navigationLink\": \"Things(1)/Datastreams\",\n  \"HistoricalLocations@iot.navigationLink\": \"Things(1)/HistoricalLocations\",\n\n  \"name\": \"Oven\",\n  \"description\": \"This thing is an oven.\",\n  \"properties\": {\n    \"owner\": \"Noah Liang\",\n    \"color\": \"white\"\n  }\n}\n",
           "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Thing/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": \"https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Things(1)\",\n  \"Locations@iot.navigationLink\": \"Things(1)/Locations\",\n  \"Datastreams@iot.navigationLink\": \"Things(1)/Datastreams\",\n  \"HistoricalLocations@iot.navigationLink\": \"Things(1)/HistoricalLocations\",\n  \"name\": \"Oven\",\n  \"description\": \"This thing is an oven.\",\n  \"properties\": {\n    \"owner\": \"Noah Liang\",\n    \"color\": \"Black\"\n  }\n}",
+          "code": "{\n  \"@context\": \"https://shreyashmusale.github.io/bblocks-sta/build/annotated/api/sta/Thing/context.jsonld\",\n  \"@iot.id\": 1,\n  \"@iot.selfLink\": \"http://example.org/v1.1/Things(1)\",\n  \"Locations@iot.navigationLink\": \"Things(1)/Locations\",\n  \"Datastreams@iot.navigationLink\": \"Things(1)/Datastreams\",\n  \"HistoricalLocations@iot.navigationLink\": \"Things(1)/HistoricalLocations\",\n  \"name\": \"Oven\",\n  \"description\": \"This thing is an oven.\",\n  \"properties\": {\n    \"owner\": \"Noah Liang\",\n    \"color\": \"white\"\n  }\n}",
           "url": "https://shreyashmusale.github.io/bblocks-sta/build/tests/api/sta/Thing/example_1_1.jsonld"
         },
         {
