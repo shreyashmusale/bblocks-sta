@@ -1,6 +1,9 @@
+@prefix ns1: <dct:> .
 @prefix sta: <https://schemas.opengis.org/sta/def/core#> .
 
-<http://w3id.org/ogcincubator/bblocks-sta/1> sta:Datastreams "Things(1)/Datastreams" ;
+<http://w3id.org/ogcincubator/bblocks-sta/1> ns1:description "This thing is an oven." ;
+    ns1:title "Oven" ;
+    sta:Datastreams "Things(1)/Datastreams" ;
     sta:HistoricalLocations "Things(1)/HistoricalLocations" ;
     sta:Locations "Things(1)/Locations" .
 
