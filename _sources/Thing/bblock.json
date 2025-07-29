@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-
+  "name": "STA Thing",
   "highlighted": true,
   "abstract": "A thing is an object of the physical world (physical things) or the information world (virtual things) that is capable of being identified and integrated into communication networks. [ITU-T Y.2060]",
   "status": "under-development",
